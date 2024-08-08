@@ -1,0 +1,33 @@
+{
+    "piraId": "1D60.30",
+    "name": "Monkey and Hunter",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Projectile Motion",
+    "equipment": [
+        "Telescopic Stand",
+        "Electromagnetic Arm",
+        "Banana Cable Spool",
+        "Monkey",
+        "<span class=\"underline\">Cannon Cart with</span>: Ball Launch Tube, Tennis Ball, Ramrod, Photogate, Laser Sight, Compressed Air Tank, Electronic Control Box, Firing Switch Box, Extension Cord"
+    ],
+    "procedure": [
+        "Verify that all equipment is powered on and setup as shown in the main top-left picture.",
+        "Use the laser sight on the ball launch tube to show that the cannon is aimed directly at the monkey.",
+        "Press the launch button to shoot the tennis ball at the monkey, keeping the launch button pressed until you’re sure the ball has left the tube.",
+        "As the ball leaves the tube, it will trip the photogate sensor, which will trigger an electromagnet to release the monkey.",
+        "The ball will hit the monkey in mid-fall.",
+        "To repeat the demonstration, turn the control box power off and set everything up as it was originally.",
+        "When ready to shoot, turn the control box power on and repeat steps 1-5."
+    ],
+    "imagePaths": [
+        "images/1D60.30-1.png",
+        "images/1D60.30-2.png",
+        "images/1D60.30-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "If the monkey drops from rest at the same instant the ball leaves the launcher, and the only force on the two objects is assumed to be gravity, where should the launcher be aimed if the monkey and ball collide? This is the classic Monkey & Hunter question. Because each object experiences the same acceleration downward due to gravity, and the solution does not depend on the size of this acceleration, the solution must be valid for the case when there is zero gravity. Clearly, the ball must, for this case and those with non-zero gravity, be aimed directly at the monkey. In the case of non-zero gravity, both monkey and ball fall the same distance, $\\frac{1}{2}g t^2$. Note: we must assume there is sufficient muzzle velocity of the ball so that collision occurs before the monkey hits the ground."
+    ]
+}

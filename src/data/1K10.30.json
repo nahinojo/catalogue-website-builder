@@ -1,0 +1,26 @@
+{
+    "piraId": "1K10.30",
+    "name": "Walking the Spool",
+    "category": "Mechanics",
+    "subcategory": "Applications of Newton's Laws",
+    "topic": "Dynamic Torque",
+    "equipment": [
+        "Pointer Stick",
+        "Large Spool"
+    ],
+    "procedure": [
+        "For each step below, align the spool so that the start of the red arrow is located at the spool’s point of contact with the table or ground, rotate the arrow to represent the spool’s lever arm and use the pointer stick to represent the force of the paper.",
+        "Pull the paper straight up (as shown in the bottom-right picture) to make the spool roll away from you.",
+        "Pull the paper directly in line with the lever arm (as shown in top-right picture) to make the spool slide toward you without rotating."
+    ],
+    "imagePaths": [
+        "images/1K10.30-1.png",
+        "images/1K10.30-2.png",
+        "images/1K10.30-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "This classic demonstration is enhanced considerably by polling the audience, “which way will it roll?” Begin by asking your class about the case of pulling vertically upward on the paper as shown in the lower right photo. In this case, the lever arm, as indicated by the red arrow, points from the spool’s contact point with the table, to the line of force indicated by the pointer stick. An upward pull on the paper thus creates a clockwise torque and the spool rolls to the right. Next, take a poll and pull the paper horizontally to the left as shown directly above. Here, the lever arm points as shown and the pulling force to the left creates a counter-clockwise torque. Contrary to the intuition of most, the spool thus rolls to the left. In the last case, the paper is pulled along a line of force that extends through the contact point. There can thus be no torque about the contact point and the spool must, for a force exceeding that of static friction, slide to the left as shown. This last result could have been intuited from knowing the first two results, because there must be some angle between horizontal and vertical which produces neither rolling to the right nor rolling to the left. That is, the spool must either remain at rest or slide."
+    ]
+}

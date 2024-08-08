@@ -1,0 +1,28 @@
+{
+    "piraId": "5A40.20",
+    "name": "Charge Propelled Cylilinder",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Electrostatics",
+    "topic": "Induced Charge",
+    "equipment": [
+        "Polyester Felt",
+        "Empty Aluminum Can",
+        "Polycarbonate Rod",
+        "PVC Rod"
+    ],
+    "procedure": [
+        "Rub the felt against the PVC rod to negatively charge it.",
+        "Hold the PVC rod very close to the can (without touching). The can will roll towards the rod as long as the rod is adequately charged.",
+        "Repeat steps 1-2 with the polycarbonate rod and felt. Note that the can still rolls toward the rod even though the polycarbonate rod becomes positively charge."
+    ],
+    "imagePaths": [
+        "images/5A40.20-1.png",
+        "images/5A40.20-2.png",
+        "images/5A40.20-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "With either the polycarbonate or PVC rod, the excess charge that resides on its tip after rubbing induces a high concentration of mobile and opposite charges in the vicinity of the can nearest the rod’s tip. The force exerted on the can by the charged rod is thus always attractive."
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "piraId": "3B55.10",
+    "name": "Speaker Bar",
+    "category": "Oscillations and Waves",
+    "subcategory": "Wave Motion",
+    "topic": "Interference of Sound",
+    "equipment": [
+        "(2) Alligator Clips",
+        "(2) 3-ft BNC-Banana Cables",
+        "Long Bar (8 ft)",
+        "(4) Rod Clamps",
+        "(2) Speakers",
+        "(2) Speaker Holders",
+        "Rotating Platform",
+        "Function Generator",
+        "BNC Tee"
+    ],
+    "procedure": [
+        "Turn on the function generator and verify that it is set to a 3 kHz sine wave at 100 mV.",
+        "Instruct the audience to cover one ear so they can only hear sound at one point in space.",
+        "Very slowly rotate the speaker bar and notice the change in the amplitude of the sound.",
+        "Keeping the bar still, ask the audience to slowly move their heads from side to side, noting the approximate distance their head must move to go from high amplitude to low amplitude.",
+        "Notice that in large rooms, the distance required increases with the distance from the speaker bar.",
+        "Disconnect one speaker and notice that the interference pattern disappears."
+    ],
+    "imagePaths": [
+        "images/3B55.10-1.png",
+        "images/3B55.10-2.png",
+        "images/3B55.10-3.png"
+    ],
+    "conceptDiagramPath": "images/3B55.10-eq.png",
+    "conceptDiagramText": [
+        "Referring to the above figure, the condition for maximum sound intensity at point $P$, the listener’s ear is:",
+        "$$ x = \\frac{L v}{d f} $$",
+        "where $d =$ 2.4 m, $v =$ speed of sound = 343 m/s, and $f =$ 3 kHz."
+    ],
+    "conceptLoneText": [
+        "For a person in the audience at $L =$ 10 m, the distance between a minimum and maximum of sound intensity is ~ 0.5 m. Note that this assumes that the speakers are driven in phase. If they are out of phase, the sound intensity at point $P$ is a minimum."
+    ]
+}

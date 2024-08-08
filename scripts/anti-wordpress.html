@@ -1,0 +1,58 @@
+<style>
+  body {
+    display: none;
+    /* Hide body by default */
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.body.style.display = 'block'; // Show body when DOM is fully loaded
+  });
+</script>
+<script>
+  // Function to remove all succeeding nodes in the <head>
+  function removeSucceedingHeadElements() {
+    var scriptElement = document.currentScript;
+    var head = document.head;
+    while (scriptElement.nextSibling) {
+      head.removeChild(scriptElement.nextSibling);
+    }
+  }
+
+  // Immediately remove all succeeding nodes in the <head>
+  removeSucceedingHeadElements();
+
+  // Set up a MutationObserver to monitor changes to the <head>
+  var observer = new MutationObserver(function (mutations) {
+    mutations.forEach(function (mutation) {
+      mutation.addedNodes.forEach(function (node) {
+        node.parentNode.removeChild(node);
+        console.log("Removed node dynamically added to <head>:", node);
+      });
+    });
+  });
+
+  observer.observe(document.head, { childList: true });
+
+  // Add event listener for DOMContentLoaded to handle body content
+  document.addEventListener('DOMContentLoaded', function () {
+
+    // Find the <div class='entry-content'>
+    var entryContent = document.querySelector('.entry-content');
+    if (!entryContent) {
+      console.error("No element with class 'entry-content' found.");
+    } else {
+      // Clone the entire node tree under <div class='entry-content'>
+      var clonedContent = entryContent.cloneNode(true);
+
+      // Clear the entire <body>
+      document.body.innerHTML = '';
+
+      // Append the cloned content to the cleared <body>
+      document.body.appendChild(clonedContent);
+    }
+
+    // Disconnect the observer after changes are made
+    observer.disconnect();
+  });
+</script>

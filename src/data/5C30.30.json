@@ -1,0 +1,31 @@
+{
+    "piraId": "5C30.30",
+    "name": "Light The Bulb",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Capacitance",
+    "topic": "Energy Stored in a Capacitor",
+    "equipment": [
+        "Bulb/Capacitor Board with:",
+        "Large Light Bulb (150W, 120V)",
+        "Small Light Bulb (15W, 120V)",
+        "Capacitor (8400μF, 100 V)",
+        "High Voltage Power Supply"
+    ],
+    "procedure": [
+        "Verify that the Bulb/Capacitor Board is plugged into the B+ Volts input of the power supply and that the volt meter is switched towards the B+ Volts side as shown in the top-right picture.",
+        "With the Bulb/Capacitor Board’s toggle switch is oriented towards the capacitor (connecting capacitor to bulb) turn on the power supply’s AC switch and then its DC switch. The power supply light should come on and now be supplying 100V.",
+        "When ready to demonstrate, toggle the Bulb/Capacitor Board’s switch away from the capacitor to begin charging it. The capacitor becomes more charged as the current meter drops to zero.",
+        "To light the bulb, toggle the Bulb/Capacitor Board’s switch back towards the capacitor to connect the capacitor to the light bulb.",
+        "The 150W bulb will stay lit for about 2 seconds. The 15W light bulb will stay lit for about 10 seconds."
+    ],
+    "imagePaths": [
+        "images/5C30.30-1.png",
+        "images/5C30.30-2.png",
+        "images/5C30.30-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The energy stored in the capacitor is $E = \\frac{1}{2}C V^2$ , where $C$ is the capacitance and $V$ the charging voltage (chosen to be 25% larger than the maximum voltage rating of the capacitor). This energy is dissipated through a light bulb where the time to discharge is $RC$. Here, the resistance of the system, $R$, is assumed to reside primarily in the light bulb. Because the light bulb has a metal filament, its resistance is temperature dependent and not easily estimated based on the power rating of the bulb. However, as expected, the 15W bulb has a significantly larger resistance than the 150W bulb, and thus stays lit noticeably longer."
+    ]
+}

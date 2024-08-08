@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <title>
+      6D30.20 - Soap Film Interference
+   </title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+   integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+   integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg"
+   crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+   integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk"
+   crossorigin="anonymous"></script>
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+         // customised options
+         // • auto-render specific keys, e.g.:
+         delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+         ],
+         // • rendering keys, e.g.:
+         throwOnError: false
+      });
+   });
+</script>
+<style>
+   body {
+      margin: 0;
+   }
+
+   h1 {
+      font-size: x-large;
+   }
+
+   ul,
+   ol {
+      padding-left: 1em;
+   }
+
+   p,
+   li {
+      font-size: medium;
+      line-height: 1.5em;
+      margin-bottom: 1em;
+      font-family: Time, serif, Arial;
+   }
+
+   ul li {
+      margin-bottom: 0.5em;
+   }
+
+   .italic {
+      font-style: italic;
+   }
+
+   .bold {
+      font-weight: bold;
+   }
+
+   .underline {
+      text-decoration: underline;
+   }
+
+   .latex-ordered-list-index {
+
+      margin-left: 4%;
+      margin-right: 2%;
+   }
+
+   #custom-page {
+      font-family: Arial, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2vw;
+      margin-bottom: 5vw;
+      max-width: 1400px;
+      min-width: 800px;
+      width: 90vw;
+   }
+
+   #title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: darkblue;
+      color: white;
+      padding: 8px;
+      font-weight: bold;
+      font-size: xx-large;
+   }
+
+   #topics {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: larger;
+      font-family: Times, serif, Arial;
+   }
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+   
+   .image-container {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 2em;
+   }
+
+   #one-image-container{
+      display: block;
+      height: auto;
+   }
+
+   #one-image-container img {
+      height: auto;
+      max-width: 100%;
+   }
+
+   #two-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #three-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2"
+         "image-1 image-3";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #three-image-container-alternate {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-3"
+         "image-2 image-3";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #four-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2"
+         "image-3 image-4";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #image-1 {
+      grid-area: image-1;
+      justify-self: flex-start;
+   }
+
+   #image-2 {
+      grid-area: image-2;
+      justify-self: flex-end;
+   }
+
+   #image-3 {
+      grid-area: image-3;
+      justify-self: flex-end;
+   }
+
+   #description {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+   }
+
+   #concept-diagram {
+      display: flex;
+      margin-bottom: 2em;
+   }
+
+   #concept-diagram img {
+      float: left;
+      width: auto;
+      max-height: 20vh;
+   }
+
+   #concept-diagram-text p {
+      margin-top: 0;
+      margin-left: 1em;
+   }
+
+   #procedure{
+      margin-top: 2em;
+   }   
+
+   #equipment {
+      justify-self: left;
+      margin-left: 2em;
+   }
+
+   @media (pointer:none), (pointer:coarse)  {
+      p, li {
+         font-size: xx-large;
+      }
+
+      ol {
+         margin-left: 2vw;
+      }
+
+      #topics {
+         font-size: xx-large;
+      }
+
+      h1 {
+         font-size: xx-large;
+      }
+
+      #custom-page {
+         width: 94vw;
+         margin-left: 3vw;
+         margin-right: 3vw;
+      }
+
+      #two-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #three-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #three-image-container-alternate {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #four-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      .image-container img {
+         width: 100%;
+         max-width: auto;
+         object-fit: cover;
+      }
+   }
+</style>
+</head>
+
+<body>
+   <div id="custom-page">
+      <header>
+         <div id="title">
+            <span>
+               Soap Film Interference
+            </span>
+            <span>
+               6D30.20
+            </span>
+         </div>
+         <div id="topics">
+            <span>
+               Optics
+            </span>
+            <span>
+               Interference
+            </span>
+            <span>
+               Thin Films
+            </span>
+         </div>
+      </header>
+      <main id="actual">
+         
+         
+         
+            
+               <div class= "image-container" id="three-image-container">
+         
+         
+         
+            
+               <img id="image-1" src="images/6D30.20-1.png" />
+            
+               <img id="image-2" src="images/6D30.20-2.png" />
+            
+               <img id="image-3" src="images/6D30.20-3.png" />
+            
+         </div>
+         <div id="description">
+            <div id="description-left">
+               <section id="concept">
+                  <h1>Concept</h1>
+                  
+                     <div id="concept-lone-text">
+                        
+                           <p>
+                              Soap films provide an ideal thickness and transparency with which to observe thin film interference. The condition for constructive interference is$$2nt=\left(m+\frac{1}{2}\right)\lambda\qquad\qquad\qquad(m=0,\ 1,\ 2,...)$$where $n$ is the film’s index of refraction (that of water, 1.33), $t$ is the film thickness, and $\lambda$ the wavelength of incident light. The various colors in the film result from the interference of rays reflected from the front and back of the bubble surface, and manifest the effects of both path length difference and 180° phase shift upon reflection. The color depends on the thickness of the film, which varies as the bubble changes shape and soap content. At visual wavelengths ($\approx$ 600nm), a minimum soap bubble thickness required to observe interference is $\approx$ 100nm.
+                           </p>
+                        
+                     </div>
+               </section>
+               <section id="procedure">
+                  <h1>Procedure</h1>
+                  <ol>
+                     
+                        <li>
+                           Set up the video camera, LCD projector, overhead projector and acrylic dish as shown in main picture at top-left.
+                        </li>
+                        
+                        <li>
+                           Pour enough soap solution into the acrylic dish to completely cover the bottom of the dish.
+                        </li>
+                        
+                        <li>
+                           When ready to demonstrate, turn on the LCD projector and camera.
+                        </li>
+                        
+                        <li>
+                           Use the small straw to blow a large bubble in the acrylic dish. It is important that the bubble is big enough to be seen over the walls of the acrylic dish from the side.
+                        </li>
+                        
+                        <li>
+                           Wait a few seconds for the soap film in the bubble to spread out and form a good interference pattern. It helps if the air around the bubble is very still.
+                        </li>
+                        
+                        <li>
+                           Focus the camera on the soap bubble so the view looks like the top-right picture.
+                        </li>
+                        
+                        <li>
+                           When finished, pour the soap solution back into the soap bottle so it can be used again.
+                        </li>
+                        
+                  </ol>
+               </section>
+            </div>
+            <section id="equipment">
+               <h1>Equipment</h1>
+               <ul>
+                  
+                     <li>
+                        LCD Projector
+                     </li>
+                     
+                     <li>
+                        Video Camera and Cables
+                     </li>
+                     
+                     <li>
+                        Overhead Projector
+                     </li>
+                     
+                     <li>
+                        Acrylic Dish
+                     </li>
+                     
+                     <li>
+                        (2) Small Straws
+                     </li>
+                     
+                     <li>
+                        Soap Solution
+                     </li>
+                     
+                     <li>
+                        Paper Towel Roll
+                     </li>
+                     
+                     <li>
+                        Funnel
+                     </li>
+                     
+               </ul>
+            </section>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>

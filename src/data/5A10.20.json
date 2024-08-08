@@ -1,0 +1,30 @@
+{
+    "piraId": "5A10.20",
+    "name": "Electrophorus",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Electrostatics",
+    "topic": "Producing Static Charge",
+    "equipment": [
+        "Acrylic Platform",
+        "Metal Plate",
+        "Fluorescent Tube",
+        "Nylon Bag"
+    ],
+    "procedure": [
+        "Vigorously rub the acrylic platform with the nylon bag to give the platform a negative charge.",
+        "Hold the metal plate by its insulating handle and place it on the acrylic platform.",
+        "Turn down the lights in the classroom to easily see the fluorescent tube light up.",
+        "Hold one end of the fluorescent tube and touch the other end to the metal plate. Notice that it briefly lights.",
+        "Now pick up the charged metal plate using the insulating handle and touch the fluorescent tube to it again. Notice that it briefly lights again."
+    ],
+    "imagePaths": [
+        "images/5A10.20-1.png",
+        "images/5A10.20-2.png",
+        "images/5A10.20-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "An electrophorus is a capacitive generator used to produce electrostatic charge via the process of electrostatic induction. The electrophorusconsists of a Lexan dielectric plate and a metal plate with an insulating handle. Rubbing the Lexan plate with a plastic bag charges it. The dielectric does not transfer a significant fraction of its surface charge to the metal because the microscopic contact is poor. Instead the electrostatic field of the charged dielectric causes the charges in the metal plate to separate. It develops two regions of charge—the positive charges in the plate are attracted to the side facing down toward the dielectric, charging it positively, while the negative charges are repelled to the side facing up, charging it negatively, with the plate remaining electrically neutral as awhole. Then, the side facing up is momentarily grounded through the fluorescent tube, draining off the negative charge. Finally, the metal plate, now carrying only one sign of charge (positive) is lifted, and can be used to excite the conducting fluorescent tube once again."
+    ]
+}

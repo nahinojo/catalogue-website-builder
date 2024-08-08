@@ -1,0 +1,35 @@
+{
+    "piraId": "6C20.30",
+    "name": "Pinhole Diffraction",
+    "category": "Optics",
+    "subcategory": "Diffraction",
+    "topic": "Diffraction Around Objects",
+    "equipment": [
+        "Slide Holding Lab Jack",
+        "Pinhole and Slide Holder",
+        "Flashlight",
+        "Tape Measure",
+        "Small Clear Ruler",
+        "Green Laser (532nm)",
+        "Small Rod Support Stand",
+        "Small Rod Clamp",
+        "Small 2-Prong Clamp"
+    ],
+    "procedure": [
+        "Switch on the laser by pressing the pushbutton switch on its bottom.",
+        "Adjust the small 2-prong clamp holding the laser and aim it at the desired position on the wall or screen.",
+        "Move the lab jack in line with the laser and use the knobs to adjust the vertical and horizontal position of the slide holder so the laser is going through the pinhole.",
+        "Turn out the classroom lights to more easily see the diffraction pattern. Use the flashlight to help demonstrate in the darkness.",
+        "For a more quantitative demonstration, measure the values of x, L and d in order to determine λ and compare it to its known value of 532 nm using the equation in the concept section."
+    ],
+    "imagePaths": [
+        "images/6C20.30-1.png",
+        "images/6C20.30-2.png",
+        "images/6C20.30-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "In this demonstration, the interference pattern contains concentric circles about a central bright spot known as Airy’s disk. As for single and double slit diffraction, the wavelength of the laser light ($\\lambda$) can be determined from:$$\\lambda=\\frac{dx}{L},$$where $d$ is the pinhole diameter, $x$ the distance between the centers of the central bright spot and of the first dark circle, and $L$ the distance between the pinhole and observation screen."
+    ]
+}

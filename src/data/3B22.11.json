@@ -1,0 +1,37 @@
+{
+    "piraId": "3B22.11",
+    "name": "Standing Waves on A Rope",
+    "category": "Oscillations and Waves",
+    "subcategory": "Wave Motion",
+    "topic": "Standing Waves",
+    "equipment": [
+        "Variac Power Supply",
+        "Jigsaw",
+        "(3) C-Clamps",
+        "Standing Wave Apparatus",
+        "Black Masking Tape",
+        "Cart"
+    ],
+    "procedure": [
+        "Verify that the jigsaw and standing wave apparatus are clamped tightly together and to the cart or table.",
+        "Verify that the rope is securely fastened to the jigsaw blade using the black masking tape.",
+        "Verify that the jigsaw is plugged into the variac power supply that is plugged into an outlet.",
+        "Verify that the trigger on the jigsaw is compressed and locked in the on position using the “lock” button on the handle.",
+        "Turn knob on the variac down to 0 volts and toggle the “on” switch to the 120 volt setting.",
+        "Slowly increase the voltage supplied to the jigsaw by turning the dial on the variac. An increase in voltage corresponds to an increase the frequency of oscillation of the rope end.",
+        "Dial through various normal modes of vibration for the rope (fundamental, 2nd, 3th harmonics)."
+    ],
+    "imagePaths": [
+        "images/3B22.11-1.png",
+        "images/3B22.11-2.png",
+        "images/3B22.11-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "A standing wave is the superposition of traveling waves constrained between two fixed boundaries, resulting in a discrete set of modes. The wavelength of each mode $\\lambda_n$ is completely determined by the distance between the fixed boundaries $L$ by the relation:",
+        "$$\\lambda_n = \\frac{2L}{n}$$",
+        "Thus, the frequency of each mode is:",
+        "$$f_n = v \\lambda \\text{ where }v = \\text{ wave speed.}$$"
+    ]
+}

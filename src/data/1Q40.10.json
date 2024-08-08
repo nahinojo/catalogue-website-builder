@@ -1,0 +1,29 @@
+{
+    "piraId": "1Q40.10",
+    "name": "Rotating Stool and Dumbells",
+    "category": "Mechanics",
+    "subcategory": "Rotational Dynamics",
+    "topic": "Conservation of Angular Momentum",
+    "equipment": [
+        "Rotating platform",
+        "Stool",
+        "(2) Soft weights (~2kg each)",
+        "5kg weights available upon request (not shown)"
+    ],
+    "procedure": [
+        "Sit on the stool on the rotating platform while holding the weights.",
+        "Hold the weights close to your body and start rotating around.",
+        "Extend your arms holding the weights to decrease your angular velocity.",
+        "Bring the weights close to your body to increase your angular velocity."
+    ],
+    "imagePaths": [
+        "images/1Q40.10-1.png",
+        "images/1Q40.10-2.png",
+        "images/1Q40.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Since there is no external torque exerted on the system consisting of the person, stool, and weights, the angular momentum is constant as the weights are pulled inward. Since there is no change in the direction of angular momentum, the magnitude of angular momentum, $I \\omega$, is conserved. Assigning the subscripts i (initial) and f (final), we have:","$$ I_i \\omega_i = I_f \\omega_f $$","As the weights are brought in, $I_f < I_i$, since the rotation axis becomes smaller. In order to compensate, $\\omega_f > \\omega_i$ and the angular speed $\\omega$ increases."
+    ]
+}

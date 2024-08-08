@@ -1,0 +1,25 @@
+{
+    "piraId": "5D40.10",
+    "name": "Jacob's Ladder",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Resistance",
+    "topic": "Conduction in Gases",
+    "equipment": [
+        "Jacob’s Ladder Apparatus"
+    ],
+    "procedure": [
+        "Verify that the Jacob’s Ladder is plugged in with the rocker switch in the “off” position.",
+        "Switch the Jacob’s Ladder on and watch the discharge jump the smallest gap, rise to the top and repeat.",
+        "Be very careful not to touch the transformer or metal prongs when the Jacob’s Ladder is turned on. <span class=\"bold\">The voltage is LETHAL!</span>"
+    ],
+    "imagePaths": [
+        "images/5D40.10-1.png",
+        "images/5D40.10-2.png",
+        "images/5D40.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The transformer converts line voltage, 120 VAC, to 15,000 VDC. This is sufficient to exceed the dielectric strength, also known as the breakdown voltage, of the air between the two conducting wires. Once this breakdown voltage (~30,000 V/cm) is exceeded, a conducting path between the wires is established and the air in between is ionized. As the energized electrons recombine with the positive ions, they emit the characteristic blue light observed. This is very similar to the plasma process observed for lightening."
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "piraId": "3B40.11",
+    "name": "Doppler Ball",
+    "category": "Oscillations and Waves",
+    "subcategory": "Wave Motion",
+    "topic": "Doppler Effect",
+    "equipment": [
+        "Foam Ball",
+        "Buzzer (4 kHz)"
+    ],
+    "procedure": [
+        "Unzip ball, turn on buzzer, and re-zip ball.",
+        "Throw the ball a student located in the middle of the classroom.",
+        "Have that student throw the ball to another student",
+        "Ask the students to report whether they heard a higher or lower frequency than when the ball was stationary.",
+        "Discuss the correlation between the motion/location of the ball and their reports of frequency changes."
+    ],
+    "imagePaths": [
+        "images/3B40.11-1.png",
+        "images/3B40.11-2.png",
+        "images/3B40.11-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The audience will hear the buzzer’s stationary frequency shifted up as the ball moves toward them, and down as the ball moves away. The shifted frequency is given by:",
+        "$$ f' = \\frac{v}{v \\pm v_s}f$$",
+        "where $v =$ 343 m/s , $\\pm$ means source moves away from or toward the observer, and $f =$ 4.0 kHz. With the ball moving at $v_s \\approx 5 \\text{m}/\\text{s}$, the frequency shift, although no more than a few percent, is still clearly perceived."
+    ]
+}

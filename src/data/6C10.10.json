@@ -1,0 +1,38 @@
+{
+    "piraId": "6C10.10",
+    "name": "Laser and Single Slit",
+    "category": "Optics",
+    "subcategory": "Diffraction",
+    "topic": "Diffraction Through One Slit",
+    "equipment": [
+        "Slide Holding Lab Jack",
+        "Single Slit Slide and holder",
+        "Flashlight",
+        "Tape Measure",
+        "Small Clear Ruler",
+        "Green Laser (532nm) and Case",
+        "Small Rod Support Stand",
+        "Small 2-Prong Clamp",
+        "Small Rod Clamp",
+        "Small White Screen"
+    ],
+    "procedure": [
+        "Switch on the laser by pressing the pushbutton switch on its bottom.",
+        "Adjust the small 2-prong clamp holding the laser and aim it at the desired position on the wall or screen.",
+        "Move the lab jack in line with the laser and use the knobs to adjust the vertical and horizontal position of the slide so the laser is going through the desired slit while the reflected beam is hitting the small white screen on the support stand. Be careful not to reflect laser light into someone’s eyes!",
+        "Turn out the classroom lights and demonstrate the differences in diffraction between slits of various widths. Use the flashlight to help demonstrate in the darkness.",
+        "For a more quantitative demonstration, measure the values of $x$, $L$, and $d$ in order to determine $\\lambda$ and compare it to its known value of 532nm using $\\lambda=dx/L$."
+    ],
+    "imagePaths": [
+        "images/6C10.10-1.png",
+        "images/6C10.10-2.png",
+        "images/6C10.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The angle $\\theta$ between the centers of the central bright spot and the first dark spot in the upper right picture is given by:",
+        "$$\\sin\\left(\\theta\\right)=\\frac{\\lambda}{d}\\approx\\frac{x}{L}$$",
+        "$\\sin\\theta$ can be well approximated by $x/L$ provided ${\\lambda}/d\\ll1$. Here, $d$ is the slit width, $x$ is the distance between the centers of the central bright spot and first dark spot, and $L$ is the distance between the diffraction slide and the wall or projection screen. The wavelength, $\\lambda$, of the laser light is 532nm and the available slit widths, $d$, are given in the notes below."
+    ]
+}

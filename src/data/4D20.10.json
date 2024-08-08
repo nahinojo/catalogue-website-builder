@@ -1,0 +1,25 @@
+{
+    "piraId": "4D20.10",
+    "name": "Crookes Radiometer",
+    "category": "Thermodynamics",
+    "subcategory": "Kinetic Theory",
+    "topic": "Mean Free Path",
+    "equipment": [
+        "Spotlight",
+        "Radiometer Apparatus"
+    ],
+    "procedure": [
+        "Turn on the spotlight and focus its beam on the radiometer’s vanes.",
+        "Notice that the vanes always revolve counterclockwise – with the black sides of the vanes moving away from the light and the white vanes moving toward the light."
+    ],
+    "imagePaths": [
+        "images/4D20.10-1.png",
+        "images/4D20.10-2.png",
+        "images/4D20.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "This popular toy is often described, albeit incorrectly, as a demonstration of radiation pressure resulting from the collision of photons with the vanes inside a high vacuum bulb. In fact, the vacuum pressure inside the bulb is too great for radiation pressure to be the correct explanation for the vane’s rotation. There’s simply too much drag caused by the surrounding gas molecules. The correct explanation is thermodynamic; the observed rotation occurs because the incident light heats up the black faces of the vanes more than the white ones. The gas molecules inside the bulb that drift into the hotter black faces receive a greater impulse than do the gas molecules bouncing off the white faces, and the corresponding net torque causes the black faces to recede."
+    ]
+}

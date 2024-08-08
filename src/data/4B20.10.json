@@ -1,0 +1,38 @@
+{
+    "piraId": "4B20.10",
+    "name": "Convection Tube",
+    "category": "Thermodynamics",
+    "subcategory": "Heat and the First Law",
+    "topic": "Convection",
+    "equipment": [
+        "Water & Funnel",
+        "Propane & Bunsen Burner",
+        "White Background",
+        "Small Rod Clamp & 2 Ft Rod",
+        "3 Ft Rod",
+        "Small 2-Pronged Rod Clamp",
+        "Convection Tube",
+        "Paper Towels",
+        "Metal Tray",
+        "Rod Stand Base",
+        "Flint Lighter",
+        "Blue Food Coloring",
+        "Safety Gloves"
+    ],
+    "procedure": [
+        "Verify that the convection tube is filled with water and securely clamped to the rod stand.",
+        "Light the Bunsen burner and position it below one side of the convection tube.",
+        "Carefully use the dropper to place two drops of food coloring in the mouth of the convection tube.",
+        "Notice that the food coloring makes the motion of the convection current visible."
+    ],
+    "imagePaths": [
+        "images/4B20.10-1.png",
+        "images/4B20.10-2.png",
+        "images/4B20.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The natural convection of fluid shown here results from the effect of buoyancy. At the burner’s flame, the water is heated and therefore becomes less dense. Consequently, the warmed water rises and cooler water circulates behind it towards the flame. Both liquids and gasses transmit heat mainly by convection. Another vivid example of convection shows that you can hold your fingers beside a candle’s flame without harm, but not above the flame. Be careful should you try to verify this at home."
+    ]
+}

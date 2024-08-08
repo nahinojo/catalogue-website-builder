@@ -1,0 +1,30 @@
+{
+    "piraId": "3A70.10",
+    "name": "Wilberforce Pendulum",
+    "category": "Oscillations and Waves",
+    "subcategory": "Oscillations",
+    "topic": "Coupled Oscillations",
+    "equipment": [
+        "2 ft. Metal Rod",
+        "Large Rod Clamp",
+        "Small Rod Clamp",
+        "Large Rod Stand",
+        "Stopwatch",
+        "Wilberforce Pendulum"
+    ],
+    "procedure": [
+        "Lower the Wilberforce pendulum mass and let it go to set it oscillating.",
+        "Notice that the motion of the pendulum alternates between purely translational oscillations and purely torsoinal oscillations",
+        "Adjust the position of the small threaded weights to change the mass’s moment of inertia and its period oftorsional oscillation."
+    ],
+    "imagePaths": [
+        "images/3A70.10-1.png",
+        "images/3A70.10-2.png",
+        "images/3A70.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The intriguing behavior arises from the coupling between the oscillator’s translational motion and its torsional motion. As the pendulum stretches vertically downward beyond its equilibrium position, the spring unwinds and exerts a twisting force on the device. Similarly, as the spring winds more tightly on the way up, it exerts a twist in the opposite direction. If the moment of inertia of the device is adjusted (by changing the radial position of the four adjustable weights) so that its torsional and translational frequencies are close, the exchange of energy from each of these two fundamental modes is clearly observed. Of course, the closer these two frequencies are to one another, the longer the observed beat period."
+    ]
+}

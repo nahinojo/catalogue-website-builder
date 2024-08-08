@@ -1,0 +1,33 @@
+{
+    "piraId": "5C30.20",
+    "name": "Short A Capacitor",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Capacitance",
+    "topic": "Energy Stored in a Capacitor",
+    "equipment": [
+        "High-Voltage Power Supply (1.5 kV maximum)",
+        "Capacitor Bank (64 μF, 2 kV maximum)",
+        "High-Voltage Multimeter",
+        "High-Voltage BNC-Banana Cable",
+        "(2) Banana-Banana Cables",
+        "Safety Glasses"
+    ],
+    "procedure": [
+        "Before doing anything, touch the metal end of the acrylic rod to the spark wire in order to make sure any residual charge in the capacitor bank is discharged. Verify that the power supply and multimeter are properly connected to the capacitor bank.",
+        "Before charging the capacitor bank, make sure the metal end of the acrylic rod is safely not touching any kind of conductor (including yourself!).",
+        "To charge the capacitor bank, turn on the power supply and dial it up to its 1.5 kV maximum output.",
+        "The multimeter will show the voltage of the capacitor bank as it charges up. It takes about 3 minutes to reach nearly maximum charge.",
+        "When ready to short the capacitor bank, turn off the power supply and touch the metal tip of the acrylic rod to the spark wire.",
+        "Discharge it a few more times to make sure it is fully discharged before handling."
+    ],
+    "imagePaths": [
+        "images/5C30.20-1.png",
+        "images/5C30.20-2.png",
+        "images/5C30.20-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Looking for some snap in your demos? This one is for you. The energy stored in the charged capacitor bank is $E =\\frac{1}{2}C V^2$. The bank has eight 8 μFcapacitors wired in parallel thus a total of 64 μF. An in-circuit resistor of 1 MΩ implies an $RC$ charging time of about 1 minute. Once the capacitors are fully charged to 1.5 kV after ~ 3 minutes, they store an energy of 72 J (enough energy to lift a large apple 72 meters). When the circuit is shorted with a conducting probe, this stored electrical energy is quickly and dramatically converted into acoustical, radiant, and thermal energy."
+    ]
+}

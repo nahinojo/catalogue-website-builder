@@ -1,0 +1,30 @@
+{
+    "piraId": "2C20.10",
+    "name": "Bernoulli Tubes",
+    "category": "Fluid Mechanics",
+    "subcategory": "Dynamics of Fluids",
+    "topic": "Bernoulli Force",
+    "equipment": [
+        "Pasco Air Supply and Hose",
+        "Bernoulli Tubes",
+        "(3) Light Plastic Golf Balls",
+        "Folding Wooden Platform"
+    ],
+    "procedure": [
+        "Turn on the Pasco air supply and set it to its maximum output setting.",
+        "Place a ball in each of the wider tubes’ air streams to show the balls floating at similar heights.",
+        "Place a ball in the narrower tube’s air stream to show that ball floating lower than the others."
+    ],
+    "imagePaths": [
+        "images/2C20.10-1.png",
+        "images/2C20.10-2.png",
+        "images/2C20.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Although the principles being demonstrated here are fluid continuity and Bernoulli’s energy conservation, this practical application should rightfully be called a Venturi tube. In this demonstration, the equations of continuity and Bernoulli are, respectively,",
+        "$$A\\nu = constant \\text{ and } P+\\frac{1}{2}\\rho \\nu ^ 2 = constant$$",
+        "Here $A =$ cross sectional area, $v =$ speed, $P =$ pressure, $\\rho =$ density. Applying these two equations between any two points in the fluid stream, gives the result that $P \\propto A$. Thus, the pressure above the broader pipes exceeds the pressure above the narrower pipe as shown above. Note that the height of the third ball from the left is slightly less than that of the first ball because the air in the third pipe has lost more of its kinetic energy to viscous drag."
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "piraId": "5A30.10",
+    "name": "Wire vs. String",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Electrostatics",
+    "topic": "Conductors and Insulators",
+    "equipment": [
+        "Electroscope (with top plate removed)",
+        "Thick Copper Wire",
+        "String",
+        "PVC Rod",
+        "Nylon Bag"
+    ],
+    "procedure": [
+        "Verify that the electroscope needle is unlatched and free to move.",
+        "Vigorously rub the PVC rod with the nylon bag to give it a negative charge.",
+        "Hold the rod near the string and notice that the electroscope does not register a charge.",
+        "Hold the rod near the thick copper wire and notice that the needle does register a charge."
+    ],
+    "imagePaths": [
+        "images/5A30.10-1.png",
+        "images/5A30.10-2.png",
+        "images/5A30.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The metal wire is a good conductor because its atoms contain outer electrons that are only weakly bound to the nuclei. The large number of these free electrons explains the good conductivity of the copper wire. In contrast, the string contains electrons that are strongly bound to their nuclei and as such are classified as insulators."
+    ]
+}

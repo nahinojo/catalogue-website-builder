@@ -1,0 +1,34 @@
+{
+    "piraId": "6D20.10",
+    "name": "Laser and Multiple Slits",
+    "category": "Optics",
+    "subcategory": "Interference",
+    "topic": "Gratings",
+    "equipment": [
+        "Slide Holding Lab Jack",
+        "Multiple Slit Slide and holder",
+        "Flashlight",
+        "Green Laser (532nm)",
+        "Small Rod Support Stand",
+        "(2) Small Rod Clamps",
+        "Small 3-Prong Clamp",
+        "Small White Screen",
+        "Diffraction Grating (upon request)"
+    ],
+    "procedure": [
+        "Switch on the laser by rotating the laser body until the single prong on the 3-prong clamp holds down the pushbutton switch.",
+        "Aim the laser at the desired position on the wall or screen.",
+        "Move the lab jack in line with the laser and use the knobs to adjust the height and position of the slide so the laser is going through the desired slits while the reflected beam is hitting the small white screen on the support stand. Be careful not to reflect laser light into someone’s eyes!",
+        "Turn out the classroom lights and demonstrate the interference/diffraction patterns for each set of slits. Use the flashlight to help demonstrate in the darkness."
+    ],
+    "imagePaths": [
+        "images/6D20.10-1.png",
+        "images/6D20.10-2.png",
+        "images/6D20.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The locations of the intensity maxima for a multiple slit aperture (where the number of slits is three or more) are the same as the locations given for the double slit. However, as the number of slits increases, the shape of each intensity peak becomes narrower and sharper, and the peak intensities increase as well. In the limit of a very large number of slits, the arrangement is called a grating. Since the resolution of gratings is especially high, they are an ideal tool for atomic spectroscopic analysis."
+    ]
+}

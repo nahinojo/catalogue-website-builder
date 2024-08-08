@@ -1,0 +1,35 @@
+{
+    "piraId": "4E30.10",
+    "name": "Pressure vs. Temperature",
+    "category": "Thermodynamics",
+    "subcategory": "Gas Law",
+    "topic": "Constant Volume",
+    "equipment": [
+        "2000 mL Pyrex Beaker",
+        "Liquid Nitrogen",
+        "Propane Torch",
+        "Boyle’s Law Pressure Gauge",
+        "Constant Volume Bulb",
+        "Metal Tray",
+        "Overhead Projector or Document Camera (not pictured)",
+        "Large Display Thermometer (not pictured, available upon request)"
+    ],
+    "procedure": [
+        "Verify that the constant volume bulb is securely connected to the pressure gauge.",
+        "Note the pressure reading at room temperature.",
+        "Fill the beaker about 2/3 full with liquid nitrogen and place the bulb in the liquid nitrogen bath.",
+        "Watch the pressure in the bulb fall.",
+        "Light the propane torch and carefully hold the bulb over the flame.",
+        "Watch the pressure in the bulb rise."
+    ],
+    "imagePaths": [
+        "images/4E30.10-1.png",
+        "images/4E30.10-2.png",
+        "images/4E30.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The direct proportionality between pressure and temperature is clearly shown here for a fixed volume of gas."
+    ]
+}

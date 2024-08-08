@@ -1,0 +1,36 @@
+{
+    "piraId": "1J30.20",
+    "name": "Tension on a String",
+    "category": "Mechanics",
+    "subcategory": "Statics of Rigid Bodies",
+    "topic": "Resolution of Forces",
+    "equipment": [
+        "4 ft Rod",
+        "(2) Cenco Pulleys",
+        "Large Ring Stand",
+        "Large Rod Clamp",
+        "(2) 1 kg Weights",
+        "20 N Scale",
+        "(2) 2 ft Cables"
+    ],
+    "procedure": [
+        "Begin with the demo set up as shown in the top-left picture with the scale facing away from the audience.",
+        "Ask the audience to predict the scale’s reading.",
+        "Flip the scale towards the audience revealing its true reading.",
+        "Once again turn the scale away from the audience.",
+        "Remove one of the weights, wrap the cable around the pulley, and reattach it to the scale as shown in top-right picture",
+        "Repeat steps 2-3"
+    ],
+    "imagePaths": [
+        "images/1J30.20-1.png",
+        "images/1J30.20-2.png",
+        "images/1J30.20-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Application of a free-body diagram to either of the 1kg masses at rest, 1.4ft Rod where $T =$ cable tension, gives:",
+        "$$\\begin{align*} &T − mg = ma = 0  \\\\ &T = mg = (1 kg)(9.8 \\text{m/s}^2 ) \\approx 10 N \\end{align*}$$",
+        "Since the scale measures the tension in the cable, the scale reads 10 N. The pulley is assumed to have negligible friction and mass, and its role is to simply redirect the tension in the cable without changing its magnitude. The cables are also assumed to have negligible mass."
+    ]
+}

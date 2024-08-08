@@ -1,0 +1,36 @@
+{
+    "piraId": "6D10.10",
+    "name": "Laser and Double Slit",
+    "category": "Optics",
+    "subcategory": "Interference",
+    "topic": "Interference from Two Sources",
+    "equipment": [
+        "Slide Holding Lab Jack",
+        "Double Slit Slide and holder",
+        "Flashlight",
+        "Tape Measure",
+        "Small Clear Ruler",
+        "Green Laser (532nm)",
+        "Small Rod Support Stand",
+        "(2) Small Rod Clamps",
+        "Small 2-Prong Clamp",
+        "Small White Screen"
+    ],
+    "procedure": [
+        "Switch on the laser by pressing the pushbutton switch on its bottom.",
+        "Adjust the small 2-prong clamp holding the laser and aim it at the desired position on the wall or screen.",
+        "Move the lab jack in line with the laser and use the knobs to adjust the vertical and horizontal position of the slide so the laser is going through the desired slits while the reflected beam is hitting the small white screen on the support stand. Be careful not to reflect laser light into someone’s eyes!",
+        "Turn out the classroom lights and demonstrate the differences in diffraction between double slits of various widths and separation spaces. Use the flashlight to help demonstrate in the darkness.",
+        "For a more quantitative demonstration, measure the values of $x$, $L$ and $d$ in order to determine $\\lambda$and compare it to its known value of 532nm using the equation given in the Concept section."
+    ],
+    "imagePaths": [
+        "images/6D10.10-1.png",
+        "images/6D10.10-2.png",
+        "images/6D10.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Note that the diffraction pattern shown in the upper right for a double slit is very similar to that of a single slit. The obvious distinction is the “interference pattern within the interference pattern” for the double slit. The governing equation is:$$\\lambda=\\frac{dx}{L},$$where $\\lambda$ is the wavelength of the laser light, $d$ is the distance between the two slits, $x$ is the distance between the centers of the central bright spot and first dark spot, and $L$ the distance between the diffraction slide and the wall or projection screen."
+    ]
+}

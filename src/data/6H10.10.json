@@ -1,0 +1,30 @@
+{
+    "piraId": "6H10.10",
+    "name": "Polaroids on the Overhead Projector",
+    "category": "Optics",
+    "subcategory": "Polarization",
+    "topic": "Dichroic Polarization",
+    "equipment": [
+        "(2) Linearly Polarized Filter",
+        "Transmission Type Overhead Projector"
+    ],
+    "procedure": [
+        "Place both filters parallel to each other on the overheard projector.",
+        "Overlap the filters.",
+        "Notice that polarized light is transmitted through each filter as well as through the combination of filters.",
+        "Rotate one filter 90 degrees.",
+        "Notice that the light is not transmitted through the combination of the two filters."
+    ],
+    "imagePaths": [
+        "images/6H10.10-1.png",
+        "images/6H10.10-2.png",
+        "images/6H10.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "When unpolarized light of intensity $I_0$ passes thru a linear polarizer whose transmission axis is oriented at an angle $\\theta$ relative to the transmission axis of a second linear polarizer, the transmitted intensity, $I$, is given by",
+        "$$I=I_0 \\cos^2\\theta$$",
+        "As the second polarizer is rotated, the transmitted intensity varies according to Malus’s Law given above. Note that as $\\theta \\rightarrow 90°$, $I \\rightarrow 0$."
+    ]
+}

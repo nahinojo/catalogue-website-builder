@@ -1,0 +1,33 @@
+{
+    "piraId": "1Q20.10",
+    "name": "Adjustable Angular Momentum",
+    "category": "Mechanics",
+    "subcategory": "Rotational Dynamics",
+    "topic": "Rotational Energy",
+    "equipment": [
+        "Large ring stand",
+        "Extender",
+        "Rotating assembly",
+        "1kg weight",
+        "Torque bar"
+    ],
+    "procedure": [
+        "Move the sliding masses to the desired positions on the rotating rod.",
+        "Rotate the rod, winding the string until the 1 kg mass is near the pulley.",
+        "Release the rotating rod and notice how long it takes for the weight to reach the end of the string.",
+        "Notice that the rod rotates much faster when the weights are located nearer to the pulley."
+    ],
+    "imagePaths": [
+        "images/1Q20.10-1.png",
+        "images/1Q20.10-2.png",
+        "images/1Q20.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The angular acceleration of this gravity driven rotator can be adjusted by varying the moment of inertia of the rotator. This is accomplished by adjusting the location of the two sliding masses of the rotating assembly. The external torque is provided by a falling weight connected by string to a pulley mounted to the rotator.",
+        "The angular acceleration, $\\alpha$ is given by:",
+        "$$\\alpha = \\frac{\\tau}{I}$$",
+        "where $\\tau =$ applied torque and $I =$ moment of inertia of the rotating assembly. The formula reveals the intuitive expectation that increasing the moment of inertia of the rotator for a fixed torque will decrease its angular acceleration."
+    ]
+}

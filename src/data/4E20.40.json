@@ -1,0 +1,33 @@
+{
+    "piraId": "4E20.40",
+    "name": "Balloon in A Vacuum",
+    "category": "Thermodynamics",
+    "subcategory": "Gas Law",
+    "topic": "Constant Temperature",
+    "equipment": [
+        "Transparent vacuum chamber",
+        "Vacuum pump with hose",
+        "Medium (or large) balloon"
+    ],
+    "procedure": [
+        "Partially inflate the balloon and place it in the vacuum chamber (see picture).",
+        "Cover the vacuum chamber with the lid.",
+        "Connect the vacuum pump hose to the vacuum chamber 2.",
+        "Plug the vacuum pump into a power outlet.",
+        "Turn on the vacuum pump using the switch (1) at the back of pump and watch the balloon grow.",
+        "Turn off the pump and close the vacuum valve (2) to prevent air leaking.",
+        "Unscrew one of the top brass caps (3) in order to release the air in the chamber.",
+        "When the chamber has been filled with air (i.e., no more hissing noise), disconnect the pump 3 from the vacuum chamber.",
+        "Remove the lid and take out the balloon."
+    ],
+    "imagePaths": [
+        "images/4E20.40-1.png",
+        "images/4E20.40-2.png",
+        "images/4E20.40-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Demonstrates Boyle's Law which states that, “For a fixed amount of gas kept at a fixed temperature, $P$ and $V$ are inversely proportional (while one increases, the other decreases).”"
+    ]
+}

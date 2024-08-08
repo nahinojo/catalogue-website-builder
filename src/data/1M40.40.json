@@ -1,0 +1,34 @@
+{
+    "piraId": "1M40.40",
+    "name": "Ballistic Pendulum",
+    "category": "Mechanics",
+    "subcategory": "Work and Energy",
+    "topic": "Conservation of Energy",
+    "equipment": [
+        "Ballistic Pendulum Apparatus",
+        "Steel Ball (68.5 g)",
+        "Ruler"
+    ],
+    "procedure": [
+        "Slide the steel ball onto the “gun” shaft.",
+        "Pull the shaft and ball towards the handle, compressing the spring, until it locks in place.",
+        "Pull the trigger to fire the ball at the stationary pendulum holder.",
+        "Notice how far up the ramp the pendulum and ball travel. There is a center of mass indicator located approximately 1cm above the geometric center of the ball + cup."
+    ],
+    "imagePaths": [
+        "images/1M40.40-1.png",
+        "images/1M40.40-2.png",
+        "images/1M40.40-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The ballistic pendulum is a popular textbook example of a collision process where both momentum and total mechanical energy are conserved, but during different time intervals. During the interval in which 3. Ruler the steel ball collides inelastically with the retaining cup, linear momentum is conserved (even though mechanical energy is converted to heat):",
+        "<span class=\"latex-ordered-list-index\">1.</span> $m_b v_A = (m_b + m_c ) v_B$",
+        "where $m_b=$ mass of ball, $m_c=$ mass of cup, $v_A=$ speed of ball before collision, $v_B =$ speed of ball + cup after collision. During the interval in which the ball + cup swing together upward, and eventually come to rest, mechanical energy is conserved:",
+        "<span class=\"latex-ordered-list-index\">2.</span> $\\frac{1}{2} (m + m_c )v_{B}^2 = (m_b + m_c )gh$",
+        "where $h =$ is the change of height as the ball + cup swing upward. Solving the above two equations gives",
+        "<span class=\"latex-ordered-list-index\">3.</span> $v_A = (m_b + m_c ) \\sqrt{2gh}$",
+        "For this demo, typical values are $m_b =$ 68g, $m_c=$ 294g, and $h =$ 7.6cm, yielding $v_A \\approx$ 6.5 m/s. This value can be independently measured using $v_A = \\sqrt{g R^2/2H}$ where $R =$ range, and $H =$ launch height when the steel ball is projected without the pendulum to intercept it. Typical values are $R = 3\\text{m}$ and $H = 1\\text{m}$ yielding $v_A \\approx$ 6.6 m/s."
+    ]
+}

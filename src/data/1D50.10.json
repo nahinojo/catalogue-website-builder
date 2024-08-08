@@ -1,0 +1,22 @@
+{
+    "piraId": "1D50.10",
+    "name": "Ball on a String",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Central Forces",
+    "equipment": [
+        "Ball on a String"
+    ],
+    "procedure": [
+        "Swing the ball in a circle in front of you. The string is one meter in length if held at the knot."
+    ],
+    "imagePaths": [
+        "images/1D50.10-1.png",
+        "images/1D50.10-2.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The requirement for a centripetally directed force to maintain circular motion is clearly shown in this demonstration. Here, the tension in the string provides the necessary centripetal force. The above picture graphically illustrates that the instantaneous velocity vector of the ball is directed perpendicularly to the radial, centrally directed force of tension."
+    ]
+}

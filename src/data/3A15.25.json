@@ -1,0 +1,33 @@
+{
+    "piraId": "3A15.25",
+    "name": "Oscillating Hoop",
+    "category": "Oscillations and Waves",
+    "subcategory": "Oscillations",
+    "topic": " Physical Pendula",
+    "equipment": [
+        "Hoop (0.5m)",
+        "Physical Pendulum Rod",
+        "Large Rod Clamp",
+        "Pendulum Bob",
+        "Large Rod Stand"
+    ],
+    "procedure": [
+        "Verify that the pendulum’s length is 2/3rds the length of the bar. The bob should align with the red tape on the hoop.",
+        "Slowly displace the pendulum bob and hoop to one side and release them at exactly the same time.",
+        "Notice that the pendulum bob and the hoop oscillate at the same frequency."
+    ],
+    "imagePaths": [
+        "images/3A15.25-1.png",
+        "images/3A15.25-2.png",
+        "images/3A15.25-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The period of a physical pendulum of length $L$ and pivoted about its end is:",
+        "$$T = 2 \\pi \\sqrt{\\frac{I}{mgd}}$$",
+        "where $I =$ moment of inertia about the pivot and $d =$ distance from the pivot to the center of mass. For the hoop, $I = \\frac{1}{2}mD^2$ and $d = \\frac{D}{2}$. Therefore,",
+        "$$T = 2 \\pi \\sqrt{\\frac{D}{g}} $$",
+        "Thus, a simple pendulum of length $D$ will have the same period."
+    ]
+}

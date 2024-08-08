@@ -1,0 +1,34 @@
+{
+    "piraId": "8A20.15",
+    "name": "Phases of the Moon",
+    "category": "Astronomy",
+    "subcategory": "Planetary Astronomy",
+    "topic": " Earth-Moon Mechanics",
+    "equipment": [
+        "Rotating Platform",
+        "Straight Rod Clamp",
+        "Small Extension Rod",
+        "Double Rod Clamp",
+        "Slotted End Clamp",
+        "Straightened Paperclip",
+        "Styrofoam Ball",
+        "Light Source",
+        "Video Camera",
+        "Video Projector"
+    ],
+    "procedure": [
+        "Turn on the video projector, camera and light source.",
+        "Rotate the platform to move the Styrofoam ball (moon) through it’s various phases as seen by the camera (Earth).",
+        "If desired, adjust the geometry of the system to demonstrate solar and lunar eclipses."
+    ],
+    "imagePaths": [
+        "images/8A20.15-1.png",
+        "images/8A20.15-2.png",
+        "images/8A20.15-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "As the Moon orbits about the Earth in its monthly cycle, the Sun’s radiant light is reflected from the Moon to the Earth and we observe the Moon’s various phases."
+    ]
+}

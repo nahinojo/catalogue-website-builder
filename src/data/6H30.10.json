@@ -1,0 +1,28 @@
+{
+    "piraId": "6H30.10",
+    "name": "Three Polaroids",
+    "category": "Optics",
+    "subcategory": "Polarization",
+    "topic": "Circular Polarization",
+    "equipment": [
+        "(3) Light Polarizing Filters",
+        "Transmission Type Overhead Projector"
+    ],
+    "procedure": [
+        "Cross two polarizing filters on the overhead projector to prevent light from passing through.",
+        "Insert the third polarizing filter between the two crossed filters at a 45° angle. This allows light to pass through all three filters.",
+        "Experiment by crossing the filters at various angles and noticing the changes in transmitted intensity."
+    ],
+    "imagePaths": [
+        "images/6H30.10-1.png",
+        "images/6H30.10-2.png",
+        "images/6H30.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "When unpolarized light of intensity $I_\\theta$ passes thru a linear polarizer whose transmission axis is oriented at an angle θ relative to the transmission axis of a second linear polarizer, the transmitted intensity, I, is given by Malus’ Law:",
+        "$$I = I_\\theta \\cos^2\\theta$$",
+        "This law can be applied consecutively to any number of polarizing layers, and is useful in explaining the resulting intensity of placing a polarizer at 45° between two crossed polarizers."
+    ]
+}

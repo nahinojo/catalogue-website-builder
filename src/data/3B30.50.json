@@ -1,0 +1,30 @@
+{
+    "piraId": "3B30.50",
+    "name": "Helium Talk",
+    "category": "Oscillations and Waves",
+    "subcategory": "Wave Motion",
+    "topic": "Wave Properties of Sound",
+    "equipment": [
+        "(2) Helium Filled Balloons",
+        "(2) Removable End Stoppers"
+    ],
+    "procedure": [
+        "Remove the stopper and slowly inhale the helium into your lungs. Be careful not to let the helium run into your mouth and out your nose.",
+        "Sing, talk or laugh.",
+        "Take 5 slow, deep breaths of air to replenish oxygen levels in your body and repeat steps 1-2."
+    ],
+    "imagePaths": [
+        "images/3B30.50-1.png",
+        "images/3B30.50-2.png",
+        "images/3B30.50-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "This all-time favorite is certain to elicit chuckles. The physics behind the high-pitched voice does not result from the helium increasing the vocal cord’s resonant frequency. The frequency of sound produced in your vocal cavity is given by:",
+        "$$f = \\frac{\\nu}{\\lambda}$$",
+        "where $\\nu =$ speed of sound in the given medium and $\\lambda =$ wavelength. Assuming the size and geometry of your mouth stay largely fixed, $\\lambda$ is constant. Thus, the ratio of the frequency of your voice in helium to its frequency in diatomic nitrogen (which is the major constituent of air) is simply the ratio of sound speeds in the two media. Recalling that wave speed always has the form $\\sqrt{\\text{Restoring Force Factor}/\\text{Inertia Factor}}$, the appropriate formula for sound speed is $\\sqrt{K / \\rho}$ where $K =$ bulk modulus and $\\rho =$ density. Thus,",
+        "$$ \\frac{f_{\\text{He}}}{f_{\\text{N}_2}} = \\sqrt{\\frac{K_{\\text{He}}/K_{\\text{N}_2}}{\\rho_{\\text{He}} / \\rho_{\\text{N}_2}}} = \\sqrt{\\frac{1.7/1.4}{4/28}} = 2.9$$",
+        "So, the frequency of your voice is about three times greater in He than in air, with the major effect due to helium’s being $1/7$ as dense as air."
+    ]
+}

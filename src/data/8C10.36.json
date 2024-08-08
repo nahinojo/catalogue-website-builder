@@ -1,0 +1,26 @@
+{
+    "piraId": "8C10.36",
+    "name": "Expanding Universe Hoberman Sphere",
+    "category": "Astronomy",
+    "subcategory": "Cosmology",
+    "topic": "Models of the Universe",
+    "equipment": [
+        "Glow-in-the-dark Hoberman Sphere"
+    ],
+    "procedure": [
+        "Begin with the Hoberman sphere folded to its smallest size and explain that the green pieces represent galaxies while the purple sections represent sections of space.",
+        "Expand the Hoberman sphere to its maximum diameter – representing the universe at a later period in time.",
+        "Focusing on the purple “space” sections, discuss what happened to each section of space between the galaxies.",
+        "Focusing on the green “galaxy” pieces, discuss what has caused the galaxies to remain intact."
+    ],
+    "imagePaths": [
+        "images/8C10.36-1.png",
+        "images/8C10.36-2.png",
+        "images/8C10.36-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "This sphere-like polyhedron can be used to model the expansion of the universe, where the glow-in-the-dark connectors represent galaxies and the purple structures the fabric of spacetime. As the model expands, the connectors all move further away from one another. So the distance between any two connectors will increase. The model is not intended to suggest that space is expanding into anything outside of itself, but rather that it is an intrinsic expansion defined by a relative separation of parts."
+    ]
+}

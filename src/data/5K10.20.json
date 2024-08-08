@@ -1,0 +1,28 @@
+{
+    "piraId": "5K10.20",
+    "name": "Induction Coil with Magnet",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Electromagnetic Induction",
+    "topic": "Induced Currents and Forces",
+    "equipment": [
+        "Cenco Multimeter",
+        "3250-Turn Coil",
+        "Bar Magnet",
+        "(2) Banana-Banana Cables",
+        "(2) Alligator Clips"
+    ],
+    "procedure": [
+        "Plug the banana-banana cables into the multimeter’s ammeter jacks with the 25 mA shunt.",
+        "Attach the alligator clips to the other end of the banana-banana cables and connect them to the metal rods at the top of the coil.",
+        "Move the bar magnet through the center of the coil noticing the induced current measured by the ammeter.",
+        "Note that a stationary magnet and coil (no relative motion) produce no current."
+    ],
+    "imagePaths": [
+        "images/5K10.20-1.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Faraday’s induction law is clearly demonstrated here. The magnetic field lines emanating from the end of the bar magnet are fringed. As the magnet is moved towards or away from the coil’s center (or as the magnet is held stationary and the coil moved), the magnetic flux through an imaginary surface bounded by the coil’s loops varies in time. As a consequence, an induced electric field in the coil produces a current that is evident on the ammeter."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "piraId": "5H40.34",
+    "name": "Magnetic Force on Conducting Strip",
+    "category": "Electricity and Magnetism",
+    "subcategory": "Magnetic Fields and Forces",
+    "topic": "Force on Current in Wires",
+    "equipment": [
+        "High Current Power Supply",
+        "(2) Banana – Alligator Cables",
+        "Aluminum Foil Strip",
+        "Large Horseshoe Magnet"
+    ],
+    "procedure": [
+        "Verify that the power supply is set to provide 10 A at 6 V, the cables are plugged into the non-filtered output and the cables, foil and magnet are arranged as shown in the bottom-right picture.",
+        "Turn on the power supply and notice that the foil lifts upwards inside the magnetic field.",
+        "Turn the power supply off.",
+        "Rotate the magnet 180° to switch its polarity with respect to the direction of the current.",
+        "Bend the foil so it stands up on its own inside the magnetic field.",
+        "Turn on the power supply and notice that the foil is now pushed downward inside the magnetic field.",
+        "Turn the power supply off."
+    ],
+    "imagePaths": [
+        "images/5H40.34-1.png",
+        "images/5H40.34-2.png",
+        "images/5H40.34-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The force exerted by a magnetic field on a current-carrying strip is vividly shown here. The direction of the force, $\\textbf{F}$, exerted on the strip by the magnetic field $\\textbf{B}$, is given by the right–hand rule via",
+        "$$\\textbf{F}=I\\textbf{L}\\times\\textbf{B}$$",
+        "Here, the current in the strip, $I$, runs left to right and parallel to the length vector $\\textbf{L}$. The magnetic field $\\textbf{B}$ points perpendicular to $\\textbf{L}$ and into the page as shown. The upward force on the conducting strip is then given by the right–hand rule. Reversing the magnet so that its field points out of the paper will of course produce a downward deflection of the current-carrying strip."
+    ]
+}

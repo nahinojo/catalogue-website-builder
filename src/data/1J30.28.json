@@ -1,0 +1,32 @@
+{
+    "piraId": "1J30.28",
+    "name": "Strong People",
+    "category": "Mechanics",
+    "subcategory": "Statics of Rigid Bodies",
+    "topic": "Resolution of Forces",
+    "equipment": [
+        "Thick Rope",
+        "Large Water Bottle (11 kg)"
+    ],
+    "procedure": [
+        "Ask the audience for two strong volunteers.",
+        "Ask them if they think they can apply enough tension to the rope to make the rope horizontal.",
+        "Have each volunteer pull on opposite sides of the rope trying to make the rope as horizontal as possible.",
+        "Estimate the rope’s minimum angle with respect to the horizontal that they are able to make.",
+        "Calculate the maximum tension that the volunteers were able to apply to the rope."
+    ],
+    "imagePaths": [
+        "images/1J30.28-1.png",
+        "images/1J30.28-2.png",
+        "images/1J30.28-3.png"
+    ],
+    "conceptDiagramPath": "images/1J30.28-eq.png",
+    "conceptDiagramText": [
+        "Application of Newton’s Law to the free-body diagram shown on the left, where $T =$ tension, gives:",
+        "<span class=\"latex-ordered-list-index\">1.</span> $\\sum F = T sin\\theta + T sin\\theta − mg = m a_y = 0$",
+        "<span class=\"latex-ordered-list-index\">2.</span> $T = \\frac{mg}{2 sin\\theta}$"],
+    "conceptLoneText": [
+        "Eq. 2 indicates that for $\\theta \\approx 30°$  as in the photograph, $T \\approx mg \\approx (11 kg)(9.8\\text{m/s}^2 ) \\approx 110$ N.",
+        "Eq. 2 also shows that as $\\theta \\rightarrow 0$, i.e., the rope approaches the horizontal, that $T \\rightarrow \\infty$. Thus, it is impossible for the rope to be horizontal, even if the only weight to be supported is the rope's own weight."
+    ]
+}

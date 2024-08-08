@@ -1,0 +1,27 @@
+{
+    "piraId": "5F20.50",
+    "name": "Series and Parallel Light Bulbs",
+    "category": "Electricity and Magnetism",
+    "subcategory": "DC Circuits",
+    "topic": " Circuit Analysis",
+    "equipment": [
+        "Parallel Circuit Board with (4) 120V 60W Light Bulbs",
+        "Series Circuit Board with (4) 120V 60W Light Bulbs",
+        "Safety Gloves (not pictured)"
+    ],
+    "procedure": [
+        "Describe the arrangement of the circuits on each board for the class and ask the class what will happen when you power the circuits.",
+        "Turn on the power to both circuits and discuss what you see and how that relates to voltages, currents and resistances for various sections of the circuit.",
+        "Poll the class to answer what happens if a single bulb is removed from each circuit (be sure to use the gloves provided)."
+    ],
+    "imagePaths": [
+        "images/5F20.50-1.png",
+        "images/5F20.50-2.png",
+        "images/5F20.50-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The brightness of the bulbs arranged in the above circuits is determined by the power dissipated, $P = V^2 R_{\\text{eq}}$. Thus, the bulb brightness is inversely proportional to the equivalent resistance, $R_{\\text{eq}}$. The supplied voltage, $V$, is Light Bulbs the same for both circuits. $R_{\\text{eq}}$ is the equivalent resistance of four 60 W arranged either in series, or parallel, each bulb with resistance $R$.","For the series arrangement of four bulbs,","$$R_{\\text{eq}} = R_{\\text{s}} = R + R + R + R = 4R$$","For the parallel arrangement of four bulbs,","$$R_{\\text{eq}} = R_{\\text{p}} = \\frac{1}{ \\frac{1}{R} + \\frac{1}{R} + \\frac{1}{R} + \\frac{1}{R}} = \\frac{R}{4}$$","Since the brightness of each circuit of bulbs is inversely proportional to $R_{\\text{eq}}$, we see that the parallel circuit of bulbs should be brighter than the series circuit by a factor of 16. In fact the parallel circuit is less than 16 times brighter because of the effect a hotter filament has on bulb resistance. We have neglected this non-ohmic effect, and the measured value of power ratio is closer to a factor of 8 instead of 16."
+    ]
+}

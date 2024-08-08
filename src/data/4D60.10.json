@@ -1,0 +1,33 @@
+{
+    "piraId": "4D60.10",
+    "name": "3 States of Matter",
+    "category": "Thermodynamics",
+    "subcategory": "Kinetic Theory",
+    "topic": "States of Matter",
+    "equipment": [
+        "Small Magnet",
+        "Box of 50 Small Balls",
+        "Molecular Motion Demonstrator",
+        "Riser Block",
+        "Cup Attachment",
+        "Overhead Projector (not pictured)"
+    ],
+    "procedure": [
+        "Place the riser block under the side of the demonstrator opposite the black knob.",
+        "Place the small balls in the cup attachment in the demonstrator field of view.",
+        "Turn on the overhead projector and toggle the power switch on the side of the demonstrator to turn it on.",
+        "Slowly rotate the black knob clockwise, adjusting the speed of the agitator bars until the balls vibrate in unison. This represents matter in a solid state.",
+        "Slowly increase the speed of the agitator bars until the balls start to jostle around while staying in the cup attachment. This represents matter in a liquid state.",
+        "Set the agitator bars to maximum speed and show that the balls leave the cup entirely. This represents matter changing into a gaseous state."
+    ],
+    "imagePaths": [
+        "images/4D60.10-1.png",
+        "images/4D60.10-2.png",
+        "images/4D60.10-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The three states of matter, solid, liquid, and gas, are modeled here. The solid is observed to have a definite volume and shape. In contrast, the liquid, while having a definite volume, has a changing shape. The gas has neither a definite shape nor a definite volume. Both liquids and gasses are treated by the laws of fluid mechanics, where the molecules are randomly arranged and bound by weak cohesive forces and the forces exerted by the their containers."
+    ]
+}

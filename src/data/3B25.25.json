@@ -1,0 +1,28 @@
+{
+    "piraId": "3B25.25",
+    "name": "Spring Wave Reflections",
+    "category": "Oscillations and Waves",
+    "subcategory": "Wave Motion",
+    "topic": "Impedance and Dispersion",
+    "equipment": [
+        "Large Support Stand",
+        "Long Spring with String",
+        "Large Rod Clamp",
+        "Slotted End Clamp"
+    ],
+    "procedure": [
+        "For fixed end reflections, clamp the spring end as close to the slotted end clamp as possible. For free end reflections, let out about 50cm of string.",
+        "Give the spring a sharp pulse. This can be done multiple ways: 1) Flicking your wrist and forearm up and down 2) While holding the spring in one hand, 'chop' the spring with the edge of your other free hand 3) Pull up or down a small displacement with your other free hand and release.  ",
+        "Dampen spring by bringing handheld end to the ground."
+    ],
+    "imagePaths": [
+        "images/3B25.25-1.png",
+        "images/3B25.25-2.png",
+        "images/3B25.25-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The reflection at a fixed end is inverted because the incoming pulse exerts a force on the rigid boundary that is opposite in direction to the reaction force the boundary exerts on the spring. The reflection at a free end is not inverted. If the mass density of the spring is $\\mu_1$ and that of the boundary is $\\mu_2$, then a fixed end reflection is modeled by $\\mu_2>>\\mu_1$ and vice-versa for a free end reflection. In the demonstration, a fixed end is accomplished by attaching the spring to the rod clamp while a free end is approximated by attaching the spring to a light string."
+    ]
+}

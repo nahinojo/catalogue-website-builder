@@ -1,0 +1,26 @@
+{
+    "piraId": "1C30.55",
+    "name": "Catch a Meter Stick",
+    "category": "Mechanics",
+    "subcategory": "Motion in One Dimension",
+    "topic": "Measuring g",
+    "equipment": [
+        "Specially Marked Meter Stick"
+    ],
+    "procedure": [
+        "One person holds the meter stick vertically with the smallest millisecond measurements at the bottom.",
+        "The catcher positions their thumb and index finger on either side of the stick’s bottom end.",
+        "The person holding the meter stick drops it at a random time.",
+        "The catcher tries to catch the meter stick by pinching their fingers together without moving their hand.",
+        "Note the reaction time written on the stick where the catcher’s fingers squeezed together."
+    ],
+    "imagePaths": [
+        "images/1C30.55-1.png",
+        "images/1C30.55-2.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Measures the reaction time of a person trying to catch a falling meter stick, whose constant acceleration is due to earth’s gravity. The local acceleration due to gravity is $9.8 \\text{m/s}^2$. The time readings on the meter stick were calculated using: $t = 2gy$ ."
+    ]
+}

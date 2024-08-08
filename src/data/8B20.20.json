@@ -1,0 +1,31 @@
+{
+    "piraId": "8B20.20",
+    "name": "Doppler Effect & Stellar Spectra",
+    "category": "Astronomy",
+    "subcategory": "Stellar Astronomy",
+    "topic": "Stellar Spectra",
+    "equipment": [
+        "Powered Rotator",
+        "Large Styrofoam Ball",
+        "(2) Small Red/Blue Styrofoam Balls with Dowel Arms"
+    ],
+    "procedure": [
+        "Verify that the white ball is securely attached to the rotator base and the colored balls are arranged as shown in the top-left picture.",
+        "Toggle the rotation direction switch to counter-clockwise (CCW).",
+        "Turn the rotation speed knob clockwise to turn the powered rotator on and adjust its speed.",
+        "Use the switch on the power strip (not shown) to turn the motor on and off – to avoid being hit by the revolving balls."
+    ],
+    "imagePaths": [
+        "images/8B20.20-1.png",
+        "images/8B20.20-2.png",
+        "images/8B20.20-3.png"
+    ],
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The white ball represents the center of a galaxy. The colored balls represent stars revolving around the galactic center. The amount of red/blue seen represents the degree to which the spectrum is Doppler shifted. A star’s spectrum is shifted toward the <span class=\"italic\">blue</span> as the star <span class=\"italic\">approaches</span> the observer because its wavelength is compressed. As the star <span class=\"italic\">recedes</span> from the observer, the spectrum shifts toward the <span class=\"italic\">red} since its wavelength is extended. A useful mnemonic device is “red for recede”.",
+        "The Doppler shifted frequency for light with observer and source moving <span class=\"italic\">toward</span> and <span class=\"italic\">away from</span> each other with relative speed v are given, respectively by",
+        "$$f_{observer}=\\sqrt{\\frac{1+\\frac{v}{c}}{1-\\frac{v}{c}}}f_{source} \\ \\text{ and } \\ f_{observer}=\\sqrt{\\frac{1-\\frac{v}{c}}{1+\\frac{v}{c}}}f_{source}.$$",
+        "The effect clearly becomes more pronounced as the relative speed $v$ approaches the speed of light $c$."
+    ]
+}
