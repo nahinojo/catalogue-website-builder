@@ -13,12 +13,12 @@
     "conceptDiagramPath": "",
     "conceptDiagramText": [],
     "conceptLoneText": [
-        "Here is a classic textbook application of Newton’s Laws. The analysis of forces and torques on the two masses and pulley gives",
-        " $$\\begin{align} m_{2} g − T_2 &= m_2 a \\\\ T_1 − m_1 g &= m_1 a \\\\ R(T_2 − T_1 ) = I\\alpha = I \\frac{alpha}{R} = \\beta m_p R^2 \\frac{a}{R} &= \\beta m_p R a \\end{align}$$",
+        "Here is a classic textbook application of Newton’s Laws. The analysis of forces and torques on the two masses and pulley gives:",
+        "$$\\begin{align} m_{2} g − T_2 &= m_2 a \\\\ T_1 − m_1 g &= m_1 a \\\\ R(T_2 − T_1 ) &= I\\alpha \\notag \\\\ &= I \\frac{a}{R} \\notag \\\\ &= \\beta m_p R^2 \\frac{a}{R} \\notag \\\\ R(T_2 − T_1 ) &= \\beta m_p R a \\end{align}$$",
         "Solve Equation (1), (2) and (3) to obtain the system’s acceleration:",
         "$$\\begin{align} a = \\frac{(m_2 - m_1)g}{m_1 + m_2 + \\beta m_p} \\tag{4} \\end{align}$$",
         "Note: Equation (4) is the net force on the system divided by its total mass, where $\\beta m_p$ is the effective rotational inertia of the pulley.",
-        "For constant acceleration the time to fall a distance h from rest is",
+        "For constant acceleration the time to fall a distance h from rest is:",
         "$$\\begin{align} t=\\sqrt{\\frac{2h}{a}}\\tag{5} \\end{align}$$",
         "In the example where $h =$ 100 cm, $m_1 =$ 500g, $m_2 =$ 550g, $β =$ 1, $m_p =$ 10g,and $g = 980\\text{cm/s}^2$, Equation (4) and (5) give $t =$ 2.1 s.",
         "Since $β m_p << m_1 + m_2$, the effect of the pulley may be neglected if desired."
