@@ -59,11 +59,12 @@
       font-family: Time, serif, Arial;
    }
 
-   p {
+   p,
+   ol li {
       margin-bottom: 1em;
    }
 
-   li {
+   ul li {
       margin-bottom: 0.5em;
    }
 
@@ -377,18 +378,16 @@
       </header>
       <main>
          <% var numImages = imagePaths.length %>
-         <% if (numImages == 4) { %><div class= "image-container" id="four-image-container"><% } %>
-         <% if (numImages == 3) { %>
-            <% if (piraId === "3B25.25") { %>
-               <div class= "image-container" id="three-image-container-alternate">
-            <% } else { %>
-               <div class= "image-container" id="three-image-container">
-         <% }}; %>
-         <% if (numImages == 2) { %><div class= "image-container" id="two-image-container"><% } %>
-         <% if (numImages == 1) { %><div class= "image-container" id="one-image-container"><% } %>
-            <% for (var i = 0; i < imagePaths.length; i++) { %>
-               <img id="image-<%= i + 1 %>" src="<%= imagePaths[i] %>" />
-            <% } %>
+         <% if (imageContainerId!=="") { %><div class= "image-container" id="<%= imageContainerId %>">
+         <% } else { %>
+            <% if (numImages == 4) { %><div class= "image-container" id="four-image-container"><% } %>
+            <% if (numImages == 3) { %><div class= "image-container" id="three-image-container"><% } %>
+            <% if (numImages == 2) { %><div class= "image-container" id="two-image-container"><% } %>
+            <% if (numImages == 1) { %><div class= "image-container" id="one-image-container"><% } %>
+         <% } %>
+         <% for (var i = 0; i < imagePaths.length; i++) { %>
+            <img id="image-<%= i + 1 %>" src="<%= imagePaths[i] %>" />
+         <% } %>
          </div>
          <div id="description">
             <div id="concept-procedure">

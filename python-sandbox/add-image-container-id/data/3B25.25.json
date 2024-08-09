@@ -4,12 +4,12 @@
     "category": "Oscillations and Waves",
     "subcategory": "Wave Motion",
     "topic": "Impedance and Dispersion",
-    "imageContainerId": "three-image-container-alternate",
     "imagePaths": [
         "images/3B25.25-1.png",
         "images/3B25.25-2.png",
         "images/3B25.25-3.png"
     ],
+    "imageContainerId": "",
     "conceptDiagramPath": "",
     "conceptDiagramText": [],
     "conceptLoneText": [
