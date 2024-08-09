@@ -27,7 +27,7 @@
     ],
     "conceptDiagramPath": "images/1F20.10-eq.png",
     "conceptDiagramText": [
-        "In the free-body diagram to the left, let $T_L =$ lower string tension, $T_U =$ upper string tension. Choosing all forces and the acceleration downwards as positive, Newton’s Law gives:", 
+        "In the free-body diagram, let $T_L =$ lower string tension, $T_U =$ upper string tension. Choosing all forces and the acceleration downwards as positive, Newton’s Law gives:", 
         "$$\\begin{align*} T_L + mg − T_U &= ma \\\\ \\\\ \\frac{T_L − T_U}{m} &=a−g \\end{align*}$$"],
     "conceptLoneText": [
         "We thus have three cases, each distinguished by how the <span class=\"italic\">resulting acceleration compares to $g$</span>:<ol><li>$T_L< T_U$, so $a < g$ and the upper string breaks </li><li> $T_L= T_U$, so $a = g$ and the two strings break simultaneously (heretofore unobserved)</li><li> $T_L > T_U$, so $a > g$ and the lower string breaks </li></ol>",

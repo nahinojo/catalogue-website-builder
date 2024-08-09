@@ -35,6 +35,10 @@
       margin: 0;
    }
 
+   span, p {
+      word-break: keep-all;
+   }
+
    h1 {
       font-size: x-large;
       margin-top: 0;
@@ -51,9 +55,16 @@
    li {
       font-size: medium;
       line-height: 1.5em;
-      margin-bottom: 1em;
       margin-top: 0;
       font-family: Time, serif, Arial;
+   }
+
+   p {
+      margin-bottom: 1em;
+   }
+
+   li {
+      margin-bottom: 0.5em;
    }
 
    li:last-child,
@@ -74,7 +85,6 @@
    }
 
    .latex-ordered-list-index {
-
       margin-left: 4%;
       margin-right: 2%;
    }
@@ -94,6 +104,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 2em;
       background-color: darkblue;
       color: white;
       padding: 8px;
@@ -102,13 +113,26 @@
    }
 
    #topics {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr minmax(auto, 40%) 1fr;
       align-items: center;
-      padding-top: 8px;
-      padding-bottom: 8px;
+      gap: 0;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
       font-size: larger;
       font-family: Times, serif, Arial;
+   }
+
+   #topic-left {
+      text-align: left;
+   }
+
+   #topic-center {
+      text-align: center;
+   }
+
+   #topic-right {
+      text-align: right;
    }
 
    img {
@@ -201,7 +225,7 @@
    }
 
    #description {
-      grid-template-columns: 3fr 1fr;
+      grid-template-columns: 4fr 1fr;
       grid-template-areas: 
       "concept-procedure equipment";
    }
@@ -217,7 +241,9 @@
    }
 
    #concept-diagram {
-      display: flex;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 2em;
       margin-bottom: 2em;
    }
 
@@ -226,12 +252,6 @@
       width: auto;
       max-height: 20vh;
    }
-
-   #concept-diagram-text p {
-      margin-top: 0;
-      margin-left: 1em;
-   }
-
 
    @media (pointer:none), (pointer:coarse)  {
       p, li {
@@ -242,16 +262,21 @@
          margin-left: 2vw;
       }
 
+      #title {
+         font-size: xxx-large;
+      }
+
       #topics {
          font-size: xx-large;
       }
 
       h1 {
-         font-size: xx-large;
+         font-size: xxx-large;
       }
 
       #custom-page {
          width: 94vw;
+         min-width: 800px;
          margin-left: 3vw;
          margin-right: 3vw;
       }
@@ -298,6 +323,18 @@
          margin-left: 0;
       }
 
+      #concept-diagram {
+         grid-template-columns: 1fr;
+         justify-items: center;
+      }
+      
+      #concept-diagram img {
+         max-height: 40vh;
+         width: 90%;
+         max-width: none;
+         object-fit: contain;
+      }
+
       #equipment ul{
          margin-left: 1em;
       }
@@ -327,13 +364,13 @@
             </span>
          </div>
          <div id="topics">
-            <span>
+            <span class="topic" id="topic-left">
                <%= category %>
             </span>
-            <span>
+            <span class="topic" id="topic-center">
                <%= subcategory %>
             </span>
-            <span>
+            <span class="topic" id="topic-right">
                <%= topic %>
             </span>
          </div>

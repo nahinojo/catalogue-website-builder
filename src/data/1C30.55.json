@@ -21,6 +21,7 @@
     "conceptDiagramPath": "",
     "conceptDiagramText": [],
     "conceptLoneText": [
-        "Measures the reaction time of a person trying to catch a falling meter stick, whose constant acceleration is due to earth’s gravity. The local acceleration due to gravity is $9.8 \\text{m/s}^2$. The time readings on the meter stick were calculated using: $t = 2gy$ ."
+        "Measures the reaction time of a person trying to catch a falling meter stick, whose constant acceleration is due to earth’s gravity. The local acceleration due to gravity is $9.8 \\text{m/s}^2$. The time readings on the meter stick were calculated using:", 
+        "$$t = 2gy$$"
     ]
 }

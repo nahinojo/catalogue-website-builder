@@ -29,10 +29,11 @@
     "conceptLoneText": [
         "The period of a physical pendulum of length $L$ and pivoted about its end is:",
         "$$T = 2 \\pi \\sqrt{\\frac{I}{mgd}}$$",
-        "where $I =$ moment of inertia about the pivot and $d =$ distance from the pivot to the center of mass. For the bar, $I = \\frac{1}{3}mL^2$ and $d = \\frac{L}{2}$. Therefore,",
+        "where $I =$ moment of inertia about the pivot and $d =$ distance from the pivot to the center of mass. Then for the bar, $I = \\frac{1}{3}mL^2$ and $d = \\frac{L}{2}$. Therefore,",
         "$$T = 2 \\pi \\sqrt{\\frac{2L}{3g}}$$",
         "Thus, a simple pendulum of length $\\frac{2}{3}L$ will have the same period. A surprising fact is that there is a conjugate pivot point that yields the same period. The pair of conjugate support distances, $l_1$ and $l_2$ (distances from center of mass to respective pivot), are related by the formula:",
-        "$$l_1 l_2 = \\frac{I_c}{m} \\text{ , where } l_c \\text{ is the moment of inertia about the center of mass.}$$",
+        "$$l_1 l_2 = \\frac{I_c}{m}$$",
+        "where $I_c$ is the moment of inertia about the center of mass.",
         "For the bar, the conjugate support distances with equal period are $L/2$ and $L/6$. Exploitation of the above relation can be used to measure g with Kater’s  pendulum."
     ]
 }

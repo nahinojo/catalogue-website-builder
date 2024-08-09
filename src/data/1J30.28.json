@@ -22,7 +22,7 @@
     ],
     "conceptDiagramPath": "images/1J30.28-eq.png",
     "conceptDiagramText": [
-        "Application of Newton’s Law to the free-body diagram shown on the left, where $T =$ tension, gives:",
+        "Application of Newton’s Law to the free-body diagram, where $T =$ tension, gives:",
         "<span class=\"latex-ordered-list-index\">1.</span> $\\sum F = T sin\\theta + T sin\\theta − mg = m a_y = 0$",
         "<span class=\"latex-ordered-list-index\">2.</span> $T = \\frac{mg}{2 sin\\theta}$"],
     "conceptLoneText": [

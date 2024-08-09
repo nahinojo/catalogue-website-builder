@@ -5,12 +5,12 @@
     "subcategory": "Rotational Dynamics",
     "topic": "Moment of Inertia",
     "equipment": [
-        "Inclined Plane",
+        "Inclined plane",
         "Sphere",
         "Ring",
         "Disc",
-        "Starting Block",
-        "Finishing Block",
+        "Starting block",
+        "Finishing block",
         "(2) C-Clamps",
         "Cart"
     ],
@@ -30,7 +30,8 @@
         "Employing the conservation of mechanical energy between the top and bottom of the incline gives:",
         "$$Mgh = \\frac{1}{2}M v^2 + \\frac{1}{2}I \\left(\\frac{v}{R}\\right)^2 $$",
         "where $h =$ height, $M =$ mass, $v =$ center of mass velocity, $I =$ moment of inertia about the center of mass, and $R =$ radius. But, $I$ can be expressed as 7. (2) C-Clamps $I = \\beta M R^2$, where $\\beta$ characterizes the geometry of the given rolling object. Substitution of this expression into the equation for energy conservation gives:",
-        "$$v = \\sqrt{\\frac{2gh}{1+\\beta}}\\text{ where }\\beta_{sphere} = \\frac{2}{5}\\text{, }\\beta_{disc} = \\frac{1}{2}\\text{, and }\\beta_{ring} = 1$$",
+        "$$v = \\sqrt{\\frac{2gh}{1+\\beta}}$$",
+        "where $\\beta_{sphere} = \\frac{2}{5}$, $\\beta_{disc} = \\frac{1}{2}$, and $\\beta_{ring} = 1$.",
         "Note that the solution is <span class=\"italic\">independent</span> of the object’s mass and size, and the winner of a rolling race can be predicted by simply knowing $\\beta$. So the order of finish is the sphere, closely followed by the disc and then the ring."
     ]
 }
