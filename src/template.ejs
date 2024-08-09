@@ -37,11 +37,14 @@
 
    h1 {
       font-size: x-large;
+      margin-top: 0;
+      margin-bottom: 0.5em;
    }
 
    ul,
    ol {
       padding-left: 1em;
+      margin: 0;
    }
 
    p,
@@ -49,15 +52,13 @@
       font-size: medium;
       line-height: 1.5em;
       margin-bottom: 1em;
+      margin-top: 0;
       font-family: Time, serif, Arial;
    }
 
-   ul li {
-      margin-bottom: 0.5em;
-   }
-
-   section {
-      margin-bottom: 2em;
+   li:last-child,
+   p:last-child {
+      margin-bottom: 0;
    }
 
    .italic {
@@ -193,24 +194,21 @@
       justify-self: flex-end;
    }
 
-   #description {
+   #description,
+   #concept-procedure {
       display: grid;
+      gap: 2em;
+   }
+
+   #description {
       grid-template-columns: 3fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "concept-procedure equipment";
    }
 
-   #concept {
-      grid-column: 1;
-      grid-row: 1 / 2;
-   }
-
-   #equipment {
-      grid-column: 2;
-   }
-
-   #procedure {
-      grid-column: 1 / 2;
-      grid-row: 2 / 3;
+   #concept-procedure {
+      grid-template-columns: 1fr;
+      grid-template-rows: min-content;
    }
 
    #procedure ol {
@@ -284,9 +282,19 @@
          "concept"
          "equipment"
          "procedure";
+         gap: 3em;
+      }
+
+      #concept-procedure {
+         display: contents;
+      }
+
+      #concept {
+         grid-row: 2;
       }
 
       #equipment {
+         grid-row: 1;
          margin-left: 0;
       }
 
@@ -346,28 +354,40 @@
             <% } %>
          </div>
          <div id="description">
-            <section id="concept">
-               <h1>Concept</h1>
-               <% if (conceptDiagramPath !== "") { %>
-                  <div id="concept-diagram">
-                     <img src="<%= conceptDiagramPath %>" />
-                     <div id="concept-diagram-text">
-                     <% conceptDiagramText.forEach((item)=> { %>
-                        <p>
-                           <%= item %>
-                        </p>
-                     <% }); %>
+            <div id="concept-procedure">
+               <section id="concept">
+                  <h1>Concept</h1>
+                  <% if (conceptDiagramPath !== "") { %>
+                     <div id="concept-diagram">
+                        <img src="<%= conceptDiagramPath %>" />
+                        <div id="concept-diagram-text">
+                        <% conceptDiagramText.forEach((item)=> { %>
+                           <p>
+                              <%= item %>
+                           </p>
+                        <% }); %>
+                        </div>
                      </div>
-                  </div>
-               <% } %>
-                  <div id="concept-lone-text">
-                     <% conceptLoneText.forEach((item)=> { %>
-                        <p>
+                  <% } %>
+                     <div id="concept-lone-text">
+                        <% conceptLoneText.forEach((item)=> { %>
+                           <p>
+                              <%= item %>
+                           </p>
+                        <% }); %>
+                     </div>
+               </section>
+               <section id="procedure">
+                  <h1>Procedure</h1>
+                  <ol>
+                     <% procedure.forEach((item)=> { %>
+                        <li>
                            <%= item %>
-                        </p>
-                     <% }); %>
-                  </div>
-            </section>
+                        </li>
+                        <% }); %>
+                     </ol>
+                  </section>
+            </div>
             <section id="equipment">
                <h1>Equipment</h1>
                <ul>
@@ -377,16 +397,6 @@
                      </li>
                      <% }); %>
                </ul>
-            </section>
-            <section id="procedure">
-               <h1>Procedure</h1>
-               <ol>
-                  <% procedure.forEach((item)=> { %>
-                     <li>
-                        <%= item %>
-                     </li>
-                     <% }); %>
-                  </ol>
             </section>
          </div>
       </main>
