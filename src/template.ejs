@@ -56,6 +56,10 @@
       margin-bottom: 0.5em;
    }
 
+   section {
+      margin-bottom: 2em;
+   }
+
    .italic {
       font-style: italic;
    }
@@ -192,6 +196,26 @@
    #description {
       display: grid;
       grid-template-columns: 3fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+   }
+
+   #concept {
+      grid-column: 1;
+      grid-row: 1 / 2;
+   }
+
+   #equipment {
+      grid-column: 2;
+   }
+
+   #procedure {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+   }
+
+   #procedure ol {
+      margin-left: 0.5em;
+      justify-self: right;
    }
 
    #concept-diagram {
@@ -210,14 +234,6 @@
       margin-left: 1em;
    }
 
-   #procedure{
-      margin-top: 2em;
-   }   
-
-   #equipment {
-      justify-self: left;
-      margin-left: 2em;
-   }
 
    @media (pointer:none), (pointer:coarse)  {
       p, li {
@@ -260,6 +276,26 @@
       #four-image-container {
          display: flex;
          flex-direction: column;
+      }
+
+      #description {
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+         "concept"
+         "equipment"
+         "procedure";
+      }
+
+      #equipment {
+         margin-left: 0;
+      }
+
+      #equipment ul{
+         margin-left: 1em;
+      }
+
+      #procedure ol {
+         padding-left: 2em;
       }
 
       .image-container img {
@@ -310,40 +346,28 @@
             <% } %>
          </div>
          <div id="description">
-            <div id="concept-procedure">
-               <section id="concept">
-                  <h1>Concept</h1>
-                  <% if (conceptDiagramPath !== "") { %>
-                     <div id="concept-diagram">
-                        <img src="<%= conceptDiagramPath %>" />
-                        <div id="concept-diagram-text">
-                        <% conceptDiagramText.forEach((item)=> { %>
-                           <p>
-                              <%= item %>
-                           </p>
-                        <% }); %>
-                        </div>
-                     </div>
-                  <% } %>
-                     <div id="concept-lone-text">
-                        <% conceptLoneText.forEach((item)=> { %>
-                           <p>
-                              <%= item %>
-                           </p>
-                        <% }); %>
-                     </div>
-               </section>
-               <section id="procedure">
-                  <h1>Procedure</h1>
-                  <ol>
-                     <% procedure.forEach((item)=> { %>
-                        <li>
+            <section id="concept">
+               <h1>Concept</h1>
+               <% if (conceptDiagramPath !== "") { %>
+                  <div id="concept-diagram">
+                     <img src="<%= conceptDiagramPath %>" />
+                     <div id="concept-diagram-text">
+                     <% conceptDiagramText.forEach((item)=> { %>
+                        <p>
                            <%= item %>
-                        </li>
-                        <% }); %>
-                  </ol>
-               </section>
-            </div>
+                        </p>
+                     <% }); %>
+                     </div>
+                  </div>
+               <% } %>
+                  <div id="concept-lone-text">
+                     <% conceptLoneText.forEach((item)=> { %>
+                        <p>
+                           <%= item %>
+                        </p>
+                     <% }); %>
+                  </div>
+            </section>
             <section id="equipment">
                <h1>Equipment</h1>
                <ul>
@@ -353,6 +377,16 @@
                      </li>
                      <% }); %>
                </ul>
+            </section>
+            <section id="procedure">
+               <h1>Procedure</h1>
+               <ol>
+                  <% procedure.forEach((item)=> { %>
+                     <li>
+                        <%= item %>
+                     </li>
+                     <% }); %>
+                  </ol>
             </section>
          </div>
       </main>
