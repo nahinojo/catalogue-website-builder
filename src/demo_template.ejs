@@ -60,11 +60,11 @@
    }
 
    p,
-   ol li {
+   #procedure-list > li {
       margin-bottom: 1em;
    }
 
-   ul li {
+   #equipment-list > li {
       margin-bottom: 0.5em;
    }
 
@@ -241,7 +241,7 @@
       grid-template-rows: min-content;
    }
 
-   #procedure ol {
+   #procedure-list {
       margin-left: 0.5em;
       justify-self: right;
    }
@@ -264,7 +264,7 @@
          font-size: xx-large;
       }
 
-      ol {
+      .procedure-list {
          margin-left: 2vw;
       }
 
@@ -341,11 +341,11 @@
          object-fit: contain;
       }
 
-      #equipment ul{
+      #equipment-list {
          margin-left: 1em;
       }
 
-      #procedure ol {
+      #procedure-list {
          padding-left: 2em;
       }
 
@@ -420,7 +420,7 @@
                </section>
                <section id="procedure">
                   <h1>Procedure</h1>
-                  <ol>
+                  <ol id="procedure-list">
                      <% procedure.forEach((item)=> { %>
                         <li>
                            <%= item %>
@@ -431,13 +431,13 @@
             </div>
             <section id="equipment">
                <h1>Equipment</h1>
-               <ul>
+               <ol id="equipment-list">
                   <% equipment.forEach((item)=> { %>
                      <li>
                         <%= item %>
                      </li>
                      <% }); %>
-               </ul>
+               </ol>
             </section>
          </div>
       </main>

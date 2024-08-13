@@ -10,7 +10,7 @@ const demoEntriesHtmlPlugins = dataFiles.map(file => {
   const data = require(`./src/data/${file}`);
   return new HtmlWebpackPlugin({
     filename: `${path.basename(file, '.json')}.html`,
-    template: 'src/template.ejs',
+    template: 'src/demo_template.ejs',
     templateParameters: data,
     inject: false,
     minify: false,
