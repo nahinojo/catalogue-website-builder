@@ -14,7 +14,7 @@
     "conceptDiagramText": [],
     "conceptLoneText": [
         "Let $c =$ cart, $g =$ ground, $p =$ paper, and $v_{ab} =$ velocity of $a$ relative to $b$. Then, $v_{cg} = v_{cp} + v_{pg}$. Thus, in Step 3 below:",
-        "$$tan \\theta_d = \\frac{v_{pg}}{v_{cp}}$$",
+        "$$\\tan \\theta_d = \\frac{v_{pg}}{v_{cp}}$$",
         "where $\\theta_d =$ angle “down-river.”",
         "Intuitively (see Step 5), many students guess that in order to arrive directly across the “river” at the adjacent cone supporting the bridge, the cart should be directed “up-river” at the angle $\\theta_d$. But, the correct angle is given by:",
         "$$\\sin \\theta_u = \\frac{v_{pg}}{v_{cp}}$$",
