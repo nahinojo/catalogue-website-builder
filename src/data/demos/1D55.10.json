@@ -1,0 +1,30 @@
+{
+    "piraId": "1D55.10",
+    "name": "Broken Ring",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Centrifugal Escape",
+    "imagePaths": [
+        "images/1D55.10-1.png",
+        "images/1D55.10-2.png",
+        "images/1D55.10-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Here we see that a body must have an external and centripetally directed force in order to move circularly. While in contact with the ring, the ball experiences a centripetal force provided by the normal force of the ring, and thus moves along a circular path. Once the ball exits the ring, there is no longer any force exerted by the ring, and so the ball must move along a straight-line path that is tangent to the ring at the exit point."
+    ],
+    "equipment": [
+        "Broken Ring",
+        "Small Ball",
+        "6 inch Transparent Ruler",
+        "Overhead Projector (not pictured)"
+    ],
+    "procedure": [
+        "Place the broken ring on the overhead projector with the foam side down.",
+        "Roll the ball around the inside of the ring towards the broken section.",
+        "Notice that the ball moves in a straight line upon exiting the ring.",
+        "Repeat the demonstration using the transparent ruler to show that the ball’s path is indeed straight and parallel to the ring opening at the broken section."
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "piraId": "1D50.41",
+    "name": "Swinging a Cup  of Water",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Central Forces",
+    "imagePaths": [
+        "images/1D50.41-1.png",
+        "images/1D50.41-2.png",
+        "images/1D50.41-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The centripetal force required to keep the platform and cup of water in circular motion is provided by gravity and the tension in the three supporting strings. At the top position, Newton’s Second Law gives",
+        "$$T + mg = \\frac{m v^2}{r}$$",
+        "where $T =$ string tension, $m =$ mass of platform, cup, and water, $v =$ tangential speed, and $r =$ radius $\\approx 1\\text{m}$. The minimum speed required to maintain circular motion, vmin, attains as $T \\rightarrow 0$ and is given by",
+        "$$v_{\\text{min}} = \\sqrt{gr} = \\sqrt{9.8\\text{m/s}}^2)(1\\text{m})  \\approx 3\\text{m/s}$$ ",
+        "The corresponding minimum angular speed is thus $\\approx$ 0.5 rev/s. Unless, of course, you want to get wet, you should strive for speeds <span class=\"italic\"> greater </span> than $v_{\\text{min}}$."
+    ],
+    "equipment": [
+        "Hanging platform",
+        "Plastic cup",
+        "Water",
+        "Paper towels"
+    ],
+    "procedure": [
+        "Fill the cup a little more than half-full of water.",
+        "Set the cup directly in the middle of the platform and make sure the strings are not tangled.",
+        "Slowly swing the platform back and forth until it is perpendicular to the ground and you have a feel for the weight.",
+        "Swing the platform in a complete circular motion as many times as you would like.",
+        "Stop the circular motion by swinging it to its perpendicular position and allowing it to swing back and forth with diminishing amplitude."
+    ]
+}

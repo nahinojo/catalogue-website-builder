@@ -1,0 +1,45 @@
+{
+    "piraId": "1Q10.35",
+    "name": "All Discs Roll The Same",
+    "category": "Mechanics",
+    "subcategory": "Rotational Dynamics",
+    "topic": "Moment of Inertia",
+    "imagePaths": [
+        "images/1Q10.35-1.png",
+        "images/1Q10.35-2.png",
+        "images/1Q10.35-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Employing the conservation of mechanical energy between the top and bottom of the incline gives:",
+        "$$Mgh = \\frac{1}{2}M v^2 + \\frac{1}{2}I \\left(\\frac{v}{R}\\right)^2 $$",
+        "where $h =$ height, $M =$ mass, $v =$ center of mass velocity, $I =$ moment of inertia about the center of mass, and $R =$ radius. But, I can be expressed as $I = \\beta M R^2$, where $\\beta$ characterizes the geometry of the given rolling object. Substitution of this expression into the equation for energy conservation gives:",
+        "$$v = \\sqrt{\\frac{2gh}{1+\\beta}}$$",
+        "where $\\beta_{sphere} = \\frac{2}{5}$, $\\beta_{disc} = \\frac{1}{2}$, and $\\beta_{ring} = 1$.",
+        "Note that the solution is <span class=\"italic\">independent</span> of the object’s mass and size, and the winner of a rolling race can be predicted by simply knowing $\\beta$."
+    ],
+    "equipment": [
+        "Inclined plane",
+        "Small sphere",
+        "Large sphere",
+        "Small ring",
+        "Large ring",
+        "Small disc",
+        "Large disc",
+        "Wooden disc",
+        "Copper disc",
+        "Starting block",
+        "Finishing block",
+        "(2) C-Clamps",
+        "Cart"
+    ],
+    "procedure": [
+        "Choose the geometry of the objects you would like to race down the incline.",
+        "Hold the starting block near the top of the inclined plane so that it blocks the objects from rolling.",
+        "Quickly move the starting block away from you and up to start the objects rolling down the incline.",
+        "Notice that, as long as you are using objects with the same geometry, they reach the bottom of the incline at the same time.",
+        "Repeat as desired using objects with different geometries or uniform densities: small sphere vs. large sphere, small ring vs. large ring, small disc vs. large disc and large aluminum disc vs. wooden disk vs. copper disc."
+    ]
+}

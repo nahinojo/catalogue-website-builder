@@ -1,0 +1,24 @@
+{
+    "piraId": "1A30.40",
+    "name": "Chalkboard Globe",
+    "category": "Mechanics",
+    "subcategory": "Measurement",
+    "topic": "Coordinate Systems",
+    "imagePaths": [
+        "images/1A30.40-1.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Use this 12 inch diameter chalkboard globe for describing spherical polar coordinates."
+    ],
+    "equipment": [
+        "Chalkboard Globe",
+        "Chalk (if requested)",
+        "String (if requested)"
+    ],
+    "procedure": [
+        "Use the chalk to draw lines and coordinates on the globe."
+    ]
+}

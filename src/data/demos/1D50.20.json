@@ -1,0 +1,30 @@
+{
+    "piraId": "1D50.20",
+    "name": "Whirligig",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Central Forces",
+    "imagePaths": [
+        "images/1D50.20-1.png",
+        "images/1D50.20-2.png",
+        "images/1D50.20-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "This demonstration provides an excellent opportunity for the instructor to quantitatively verify the dynamics of uniform circular motion. Application of Newton’s Second Law to the ball’s motion in the horizontal plane gives:",
+        "$$\\begin{align*} m_w g &= m_b \\frac{v^2}{R} = m_b \\frac{(2 \\pi R/T)^2}{R} \\\\ \\\\ m_w g &= m_b \\frac{4 \\pi^2 R}{T^2} \\end{align*}$$",
+        "$$g = 4\\pi^2 \\left(\\frac{m_b}{m_w}\\right)\\left(\\frac{R}{T^2}\\right)$$",
+        "where $m_w =$ mass of weight, $m_b =$ mass of ball, $R =$ radius, and $T =$ period. Note that the weight of the mass, $m_w g$, provides the tension in the string, and it is actually this tension that exerts the centripetal force on the ball. Here, we also assume the contribution to the tension arising from friction between the string and support tube is negligible."
+    ],
+    "equipment": [
+        "Whirligig with 115 g Ball",
+        "Weight (1 kg)"
+    ],
+    "procedure": [
+        "Hang the 1 kg weight from the ring at the end of the string.",
+        "Notice that the weight falls, pulling the smaller mass ball to the top of the cylinder.",
+        "Swing the ball in a horizontal circle at a high enough angular velocity to provide enough tension in the string to lift the 1 kg weight. Different angular velocities will raise or lower the weight."
+    ]
+}

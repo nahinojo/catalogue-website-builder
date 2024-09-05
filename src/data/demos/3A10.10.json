@@ -1,0 +1,32 @@
+{
+    "piraId": "3A10.10",
+    "name": "Simple Pendulum",
+    "category": "Oscillations and Waves",
+    "subcategory": "Oscillations",
+    "topic": "Pendula",
+    "imagePaths": [
+        "images/3A10.10-1.png",
+        "images/3A10.10-2.png",
+        "images/3A10.10-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "The period of small oscillations of a simple pendulum is given by $Τ = 2 \\pi \\sqrt{\\frac{L}{g}}$ where $L$ is the pendulum length and $g$ is the acceleration due to gravity. In the demonstration, the period for various lengths can be predicted using the above formula and then compared to the observed values.",
+        "The increased period of larger amplitude oscillations can also be observed by initially displacing the ball ~60° from the vertical."
+    ],
+    "equipment": [
+        "Large Support Stand",
+        "Large Rod Clamp",
+        "Slotted End Clamp",
+        "Pendulum Bob",
+        "Meter Stick",
+        "Timer"
+    ],
+    "procedure": [
+        "Use the meter stick to adjust the pendulum to the desired length (it will be preset to one meter).",
+        "Bring the pendulum bob to the desired height perpendicular to the slotted end clamp and let it go to begin oscillations.",
+        "Use the timer to measure the period of oscillation over ten cycles. Then take the average to find the pendulum’s period."
+    ]
+}

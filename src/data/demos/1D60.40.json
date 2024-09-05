@@ -1,0 +1,38 @@
+{
+    "piraId": "1D60.40",
+    "name": "Range of a Gun",
+    "category": "Mechanics",
+    "subcategory": "Motion in Two Dimensions",
+    "topic": "Projectile Motion",
+    "imagePaths": [
+        "images/1D60.40-1.png",
+        "images/1D60.40-2.png",
+        "images/1D60.40-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Demonstrates the parabolic path, range and height of a projectile fired at various angles."
+    ],
+    "equipment": [
+        "Projectile Launcher",
+        "Yellow Ball",
+        "Ball Plunger",
+        "Padded Bucket",
+        "Small Bungee Cord",
+        "(2) Stands",
+        "(2) Platforms",
+        "C-Clamp",
+        "2 Meter Ruler",
+        "Tape",
+        "Tape Measure"
+    ],
+    "procedure": [
+        "Launcher and bucket will be pre-set 4 meters apart.",
+        "Use plunger to place the ball in the launcher at maximum spring tension (Long Range).",
+        "Pull the launcher string to fire the ball straight up and notice it reaches the maximum height of about 2 meters.",
+        "Use the finger screws to change the launch angle to 45° and launch the ball into the bucket at the maximum range of about 4 meters.",
+        "Fire the ball at other angles and notice the ballʼs range, height and path shape."
+    ]
+}

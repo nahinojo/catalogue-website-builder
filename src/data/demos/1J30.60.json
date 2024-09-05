@@ -1,0 +1,33 @@
+{
+    "piraId": "1J30.60",
+    "name": "Sail Against The Wind",
+    "category": "Mechanics",
+    "subcategory": "Statics of Rigid Bodies",
+    "topic": "Resolution of Forces",
+    "imagePaths": [
+        "images/1J30.60-1.png",
+        "images/1J30.60-2.png",
+        "images/1J30.60-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "images/1J30.60-eq.png",
+    "conceptDiagramText": [
+        "This simplified diagram reveals how it is possible to sail against the wind. The red vector, assumed to be perpendicular to the sail, represents the force on the sail by the wind. The blue vector, which must be perpendicular to the boat axis (and keel), represents the reaction force of the water on the boat’s keel. This reaction force is just enough to make the net force, represented in black, act along the boat’s axis and thus accelerates the boat against the wind."
+    ],
+    "conceptLoneText": [
+        "Not shown is the drag force of water on the keel and hull, directed along the boat axis and towards the boat’s rear. This drag force increases with the boat’s velocity relative to the water until its magnitude equals the magnitude of the net force vector (in black), at which time the boat’s velocity relative to the water becomes constant.",
+        "Note that when the sail and boat axis are directed at the same angle relative to the wind $(\\theta = \\phi)$, the net force is zero. As $\\phi$ is increased beyond $\\theta$, the magnitude of the net force increases, but its direction becomes more perpendicular to the wind. This is the trade off a sailor must make as he takes a zig-zag course, called tacking, against the wind. An excellent simulation can be found at http://demonstrations.wolfram.com/SailingAgainstTheWind/."
+    ],
+    "equipment": [
+        "Air Track",
+        "Handheld Fan",
+        "Glider",
+        "Glider Sail",
+        "Air Supply"
+    ],
+    "procedure": [
+        "Angle the sail as shown above, with the sail roughly parallel to the fan’s airstream.",
+        "Turn on the fan and notice that the glider moves in the upwind direction.",
+        "Move the fan, maintaining the same angle between airstream and sail, to keep the glider accelerating."
+    ]
+}

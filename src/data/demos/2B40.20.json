@@ -1,0 +1,42 @@
+{
+    "piraId": "2B40.20",
+    "name": "Archimedes Principle",
+    "category": "Fluid Mechanics",
+    "subcategory": "Statics of Fluids",
+    "topic": "Density and Bouyancy",
+    "imagePaths": [
+        "images/2B40.20-1.png",
+        "images/2B40.20-2.png",
+        "images/2B40.20-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Archimedes’ principle is convincingly demonstrated to show that the buoyant force on a submerged object is indeed equal to the weight of the water displaced by that object. The buoyant force is measured by the observed reduction in the system’s weight as it is submerged in water"
+    ],
+    "equipment": [
+        "Paper towels",
+        "Funnel",
+        "Large filled water bottle",
+        "Large stand",
+        "Large rod clamp",
+        "Small rod (1.5ft)",
+        "Small rod clamp",
+        "20N Newton scale",
+        "Metal bucket",
+        "Acrylic cylinder",
+        "4000mL beaker with hose",
+        "2000mL beaker",
+        "Lab jack",
+        "Clamp"
+    ],
+    "procedure": [
+        "Verify that the hose end is in the small beaker and the large beaker is filled with water to the hose outlet",
+        "Take note of the scale reading.",
+        "Slowly raise the lab jack until the acrylic cylinder is completely submerged below the hose.",
+        "Take note of the new scale reading and the volume of overflow water in the small beaker.",
+        "After all water has stopped coming out of the hose, bend the hose and secure it with the clamp.",
+        "Pour the overflow water into the metal bucket to bring the scale back to its initial reading."
+    ]
+}

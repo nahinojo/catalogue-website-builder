@@ -1,0 +1,36 @@
+{
+    "piraId": "2B40.10",
+    "name": "Weigh Submerged Block",
+    "category": "Fluid Mechanics",
+    "subcategory": "Statics of Fluids",
+    "topic": "Density and Bouyancy",
+    "imagePaths": [
+        "images/2B40.10-1.png",
+        "images/2B40.10-2.png",
+        "images/2B40.10-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Demonstrates how the fluid surrounding an object exerts a buoyant force on the object, decreasing its weight, by first weighing an object in air, then in water."
+    ],
+    "equipment": [
+        "Heavy ringstand",
+        "(2) 1\" Rod clamp",
+        "24\" Aluminum rod",
+        "(2) Lab jack",
+        "2000-ml glass beaker",
+        "22N scale",
+        "1.45kg acrylic block",
+        "Jug of water"
+    ],
+    "procedure": [
+        "Assemble the tripod, Al rod, scale, and rod clamps (see picture).",
+        "Stack the two lab jacks and put the glass beaker on top.",
+        "Add 500 – 600 ml of water. Do not put more water, or it will spill when the block will be submerged.",
+        "Hang the acrylic block on the scale and note its mass.",
+        "Using the two lab jacks, start raising the beaker with water until the block is fully submerged.",
+        "Note the submerged block weight."
+    ]
+}

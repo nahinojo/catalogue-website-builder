@@ -1,0 +1,28 @@
+{
+    "piraId": "1M40.25",
+    "name": "Energy Well Track",
+    "category": "Mechanics",
+    "subcategory": "Work and Energy",
+    "topic": "Conservation of Energy",
+    "imagePaths": [
+        "images/1M40.25-1.png",
+        "images/1M40.25-2.png",
+        "images/1M40.25-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "During one cycle of rolling, the billiard ball will return to a height that is roughly equal to or just noticeably less than its initial height. This demonstrates that most of the mechanical energy (potential plus kinetic) is conserved. However, after several cycles of rolling back and forth, the ball will eventually come to rest. This clearly indicates a loss of mechanical energy, and the primary sink for the energy is the work done by the billiard ball against air resistance. Note that as long as the ball does not slip, zero work is lost due to static friction. Also, because the ball and track are relatively stiff, there is very little loss of energy due to deformation of these materials as they interact, i.e., rolling resistance."
+    ],
+    "equipment": [
+        "Energy Well Track",
+        "Billiard Ball",
+        "Meter Stick"
+    ],
+    "procedure": [
+        "Use the magnets on the back of the Energy Well Track to anchor it where you want on the whiteboard (as shown in the top-right picture).",
+        "Place the billiard ball near the top of the Energy Well Track, mark its initial height on the whiteboard and release it from rest.",
+        "Notice that for a single cycle, the ball returns very close to its initial height without much energy loss. However, after many cycles, the ball’s height has diminished considerably primarily due to air resistance."
+    ]
+}

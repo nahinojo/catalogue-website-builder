@@ -1,0 +1,27 @@
+{
+    "piraId": "1A20.10",
+    "name": "Gaussian Collision Board",
+    "category": "Mechanics",
+    "subcategory": "Measurement",
+    "topic": "Error and Accuracy",
+    "imagePaths": [
+        "images/1A20.10-1.png",
+        "images/1A20.10-2.png",
+        "images/1A20.10-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Also referred to as the “normal distribution” or “bell shaped curve”, the Gaussian distribution is a function that can accurately represent the distribution of a very large number of many random events. It is expressed in the form below where $a$ is the mean and $\\sigma$ is the standard deviation. $$f(x) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}}e^{-\\frac{(x-a)^2}{2 \\sigma^2}}$$"
+    ],
+    "equipment": [
+        "Gaussian Collision Board"
+    ],
+    "procedure": [
+        "Gather all of the shot in the upper reservoir of the collision board as shown in the bottom-right picture.",
+        "Place the board on the overhead projector or document camera.",
+        "Press and hold down the trademark end of the board to get the shot rolling as shown in the main picture. Tap very lightly if necessary to get all of the shot to roll freely.",
+        "Count the height of the shot in each column and make a graph or curve of the results."
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "piraId": "1A30.10",
+    "name": "XYZ Axis",
+    "category": "Mechanics",
+    "subcategory": "Measurement",
+    "topic": "Coordinate Systems",
+    "imagePaths": [
+        "images/1A30.10-1.png",
+        "images/1A30.10-2.png",
+        "images/1A30.10-3.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Demonstrates the axes of a three-dimensional coordinate system using rods with different colored ends."
+    ],
+    "equipment": [
+        "(3) Rods with colored ends",
+        "(2) Rod clamps"
+    ],
+    "procedure": [
+        "Assemble rods in a way that most closely resembles the coordinate system being modeled."
+    ]
+}

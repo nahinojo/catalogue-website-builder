@@ -1,0 +1,24 @@
+{
+    "piraId": "1C20.16",
+    "name": "Drop Ball and Paper",
+    "category": "Mechanics",
+    "subcategory": "Motion in One Dimension",
+    "topic": "Uniform Acceleration",
+    "imagePaths": [
+        "images/1C20.16-1.png"
+    ],
+    "imageContainerId": "",
+    "conceptDiagramPath": "",
+    "conceptDiagramText": [],
+    "conceptLoneText": [
+        "Demonstrates the concepts of air resistance and constant gravitational acceleration."
+    ],
+    "equipment": [
+        "Tennis ball",
+        "Piece of flat paper"
+    ],
+    "procedure": [
+        "Drop a flat piece of paper and a tennis ball at the same time noticing that the ball hits the ground first.",
+        "Repeat step 1 after crumpling the sheet of paper to the size of the ball noticing that now the ball and paper reach the ground at the same time."
+    ]
+}
