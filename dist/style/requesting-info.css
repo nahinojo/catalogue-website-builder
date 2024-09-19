@@ -1,0 +1,27 @@
+/* 
+* Styling for the webpages regarding demo request inquiries (Demo Calendar, Contact Us, etc.) 
+*/
+
+/* --- Inner Content Container --- */
+
+main {
+	display: grid;
+	grid-template-areas:
+		"topics content"
+		"topics footer";
+	grid-template-columns: 184fr 581fr;
+	grid-template-rows: 1fr auto;
+}
+
+/* --- Navigation of Demo Topics --- */
+
+#topics {
+	grid-row: 1 / 3;
+}
+
+/* --- Footer --- */
+
+footer {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}

@@ -17,7 +17,7 @@
         "$$L=n\\frac{\\lambda}{2} \\text{ , } n=1,2,3,...$$",
         "where $L =$ bar’s length and $\\lambda =$ wavelength. The resonant frequencies $f_n$ are thus given by",
         "$$f_n = n \\frac{\\nu}{2L} \\text{ , } n=1,2,3,...$$",
-        "where $v =$ speed of sound in aluminum $= 5.1 x 10^3 m/s$ and $L =$ 1.82 m.",
+        "where $v =$ speed of sound in aluminum $= 5.1 \\cdot 10^3 m/s$ and $L =$ 1.82 m.",
         " If the rod is firmly held and stroked at $L/2$, $L/4$, and $L/6$, the corresponding audible frequencies are 1.4, 2.8, and 4.2 kHz. Additionally, when the rod is supported at the two locations between $L/4$ and $L/6$, and then excited, transverse, non-sinusoidal standing waves can be clearly observed"
     ],
     "equipment": [

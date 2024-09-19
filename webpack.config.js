@@ -22,8 +22,7 @@ module.exports = {
     filename: 'junk-ignore.js', // Ignorable output file
   },
   plugins: [
-    ...demoEntriesHtmlPlugins,
-    ...topicHtmlPlugins
+    ...demoEntriesHtmlPlugins
   ],
   mode: 'development'
 };

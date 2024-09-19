@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <title>
+      5H10.30 - Magnet and Iron Filings
+   </title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+   integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+   integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg"
+   crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+   integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk"
+   crossorigin="anonymous"></script>
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+         // customised options
+         // • auto-render specific keys, e.g.:
+         delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+         ],
+         // • rendering keys, e.g.:
+         throwOnError: false
+      });
+   });
+</script>
+<style>
+   body {
+      margin: 0;
+   }
+
+   span, p {
+      word-break: keep-all;
+   }
+
+   h1 {
+      font-size: x-large;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+   }
+
+   ul,
+   ol {
+      padding-left: 1em;
+      margin: 0;
+   }
+
+   p,
+   li {
+      font-size: medium;
+      line-height: 1.5em;
+      margin-top: 0;
+      font-family: Time, serif, Arial;
+   }
+
+   p,
+   #procedure-list > li {
+      margin-bottom: 1em;
+   }
+
+   #equipment-list > li {
+      margin-bottom: 0.5em;
+   }
+
+   li:last-child,
+   p:last-child {
+      margin-bottom: 0;
+   }
+
+   .italic {
+      font-style: italic;
+   }
+
+   .bold {
+      font-weight: bold;
+   }
+
+   .underline {
+      text-decoration: underline;
+   }
+
+   .latex-ordered-list-index {
+      margin-left: 4%;
+      margin-right: 2%;
+   }
+
+   .katex-display {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   #page-container {
+      font-family: Arial, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+      margin-bottom: 4em;
+      max-width: 1400px;
+      min-width: 800px;
+      width: 90vw;
+   }
+
+   #title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2em;
+      background-color: darkblue;
+      color: white;
+      padding: 8px;
+      font-weight: bold;
+      font-size: xx-large;
+   }
+
+   #topics {
+      display: grid;
+      grid-template-columns: 1fr minmax(auto, 40%) 1fr;
+      align-items: center;
+      gap: 0;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      font-size: larger;
+      font-family: Times, serif, Arial;
+   }
+
+   #topic-left {
+      text-align: left;
+   }
+
+   #topic-center {
+      text-align: center;
+   }
+
+   #topic-right {
+      text-align: right;
+   }
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+   
+   .image-container {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 2em;
+   }
+
+   #one-image-container{
+      display: block;
+      height: auto;
+   }
+
+   #one-image-container img {
+      height: auto;
+      max-width: 100%;
+   }
+
+   #two-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #three-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2"
+         "image-1 image-3";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #three-image-container-alternate {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-3"
+         "image-2 image-3";
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #four-image-container {
+      display: grid;
+      grid-template-areas:
+         "image-1 image-2"
+         "image-3 image-4";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+   }
+
+   #image-1 {
+      grid-area: image-1;
+      justify-self: flex-start;
+   }
+
+   #image-2 {
+      grid-area: image-2;
+      justify-self: flex-end;
+   }
+
+   #image-3 {
+      grid-area: image-3;
+      justify-self: flex-end;
+   }
+
+   #description,
+   #concept-procedure {
+      display: grid;
+      gap: 2em;
+   }
+
+   #description {
+      grid-template-columns: 4fr 1fr;
+      grid-template-areas: 
+      "concept-procedure equipment";
+   }
+
+   #concept-procedure {
+      grid-template-columns: 1fr;
+      grid-template-rows: min-content;
+   }
+
+   #procedure-list {
+      margin-left: 0.5em;
+      justify-self: right;
+   }
+
+   #concept-diagram {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 2em;
+      margin-bottom: 2em;
+   }
+
+   #concept-diagram img {
+      float: left;
+      width: auto;
+      max-height: 20vh;
+   }
+
+   @media (pointer:none), (pointer:coarse)  {
+      p, li {
+         font-size: xx-large;
+      }
+
+      .procedure-list {
+         margin-left: 2vw;
+      }
+
+      #title {
+         font-size: xxx-large;
+      }
+
+      #topics {
+         font-size: xx-large;
+      }
+
+      h1 {
+         font-size: xxx-large;
+      }
+
+      #page-container {
+         width: 94vw;
+         min-width: 800px;
+         margin-left: 3vw;
+         margin-right: 3vw;
+      }
+
+      #two-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #three-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #three-image-container-alternate {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #four-image-container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      #description {
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+         "concept"
+         "equipment"
+         "procedure";
+         gap: 3em;
+      }
+
+      #concept-procedure {
+         display: contents;
+      }
+
+      #concept {
+         grid-row: 2;
+      }
+
+      #equipment {
+         grid-row: 1;
+         margin-left: 0;
+      }
+
+      #concept-diagram {
+         grid-template-columns: 1fr;
+         justify-items: center;
+      }
+      
+      #concept-diagram img {
+         max-height: 40vh;
+         width: 90%;
+         max-width: none;
+         object-fit: contain;
+      }
+
+      #equipment-list {
+         margin-left: 1em;
+      }
+
+      #procedure-list {
+         padding-left: 2em;
+      }
+
+      .image-container img {
+         width: 100%;
+         max-width: auto;
+         object-fit: cover;
+      }
+   }
+</style>
+</head>
+
+<body>
+   <div id="page-container">
+      <header>
+         <div id="title">
+            <span>
+               Magnet and Iron Filings
+            </span>
+            <span>
+               5H10.30
+            </span>
+         </div>
+         <div id="topics">
+            <span class="topic" id="topic-left">
+               Electricity and Magnetism
+            </span>
+            <span class="topic" id="topic-center">
+               Magnetic Fields and Forces
+            </span>
+            <span class="topic" id="topic-right">
+               Magnetic Fields
+            </span>
+         </div>
+      </header>
+      <main>
+         
+         
+            
+            <div class= "image-container" id="three-image-container">
+            
+            
+         
+         
+            <img id="image-1" src="images/5H10.30-1.png" />
+         
+            <img id="image-2" src="images/5H10.30-2.png" />
+         
+            <img id="image-3" src="images/5H10.30-3.png" />
+         
+         </div>
+         <div id="description">
+            <div id="concept-procedure">
+               <section id="concept">
+                  <h1>Concept</h1>
+                  
+                     <div id="concept-lone-text">
+                        
+                           <p>
+                              This demonstration reveals the key characteristics of the field lines of apermanent magnet:There are (to date) no magnetic monopoles, only dipoles and combinations of dipoles. Hence, the field lines must begin and end at opposite poles. The B-field vectors are tangent to the lines at all points.The density of field lines is proportional to the magnetic field strength in that region.Field lines never cross themselves (otherwise the field would have an ambiguous direction at the crossings).
+                           </p>
+                        
+                     </div>
+               </section>
+               <section id="procedure">
+                  <h1>Procedure</h1>
+                  <ol id="procedure-list">
+                     
+                        <li>
+                           As the steel wool settles in the silicone oil solution it may clump together and need to be dispersed as shown in the bottom right picture.
+                        </li>
+                        
+                        <li>
+                           To evenly disperse the steel wool filings silicone oil solution: To evenly disperse the steel wool filings silicone oil solution:a. Stand the unit upside down so the air bubble enters the main chamber with the filingsb. Shake the apparatus and bubble from side to side to disperse the filings.c. When the filings are evenly dispersed, hold the unit right side up so that the air bubbles fill the air chamber as shown in the top right picture.
+                        </li>
+                        
+                        <li>
+                           After all the air has been collected in the air chamber, place the unit flat on the surface of the overheadprojector or document camera with the name plate up as shown in the picture on the left.
+                        </li>
+                        
+                        <li>
+                           Place the magnet on the apparatus and watch as the filings slowly line up with the magnetic field lines.
+                        </li>
+                        
+                     </ol>
+                  </section>
+            </div>
+            <section id="equipment">
+               <h1>Equipment</h1>
+               <ol id="equipment-list">
+                  
+                     <li>
+                        Nakamura Magnetic Field Demonstration Apparatus
+                     </li>
+                     
+                     <li>
+                        Small Bar Magnet
+                     </li>
+                     
+                     <li>
+                        Overhead Projector (if not already in classroom)
+                     </li>
+                     
+               </ol>
+            </section>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>
