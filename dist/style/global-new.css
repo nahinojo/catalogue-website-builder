@@ -105,19 +105,6 @@ a:active {
 
 }
 
-@media screen and (max-width: 1200px) {
-
-	#page-container {
-		min-height: calc(100vh - 2rem);
-		width: calc(100vw - 2rem);
-		max-width: none;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
-}
-
 /* UCI Banner */
 
 #uci-banner-container {
@@ -191,7 +178,7 @@ a:active {
 	padding-bottom: 0.5rem;
 	padding-right: 1rem;
 	width: fit-content;
-	margin-left: none;
+	margin-left: 0;
 }
 
 #topics a:link,
@@ -242,4 +229,44 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+
+	* {
+		font-size: medium;
+	}
+
+	.hline-text,
+	#requesting-nav a,
+	#topics a  {
+		font-size: large;
+	}
+
+	#page-container {
+		min-height: calc(100vh - 2rem);
+		width: calc(100vw - 2rem);
+		max-width: none;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	#topics {
+		width: calc(100% - 4rem);
+		padding-top: 1.5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	#catalog {
+		padding-top: 1.5rem;
+	}
+
+	#topics a {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		padding-right: 2rem;
+	}
 }
