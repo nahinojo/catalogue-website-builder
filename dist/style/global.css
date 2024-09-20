@@ -233,16 +233,6 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-	* {
-		font-size: medium;
-	}
-
-	.hline-text,
-	#requesting-nav a,
-	#topics a  {
-		font-size: large;
-	}
-
 	#page-container {
 		min-height: calc(100vh - 2rem);
 		width: calc(100vw - 2rem);
@@ -251,22 +241,5 @@ footer {
 		margin-bottom: 1rem;
 		margin-left: 1rem;
 		margin-right: 1rem;
-	}
-
-	#topics {
-		width: calc(100% - 4rem);
-		padding-top: 1.5rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-
-	#catalog {
-		padding-top: 1.5rem;
-	}
-
-	#topics a {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		padding-right: 2rem;
 	}
 }

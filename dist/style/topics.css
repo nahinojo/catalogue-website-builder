@@ -2,15 +2,13 @@
 * Styling for every physics topic webpage (mechanics, thermodynamics, etc.) as well as the Home page.
 */
 
-/* Inner Content Container */
-
 main {
 	display: grid;
 	grid-template-areas:
 		"image-1 image-2 image-3"
 		"topics catalog catalog"
 		"topics footer footer";
-	grid-template-columns: minmax(184px, 184fr) minmax(397px, 397fr) minmax(184px, 184fr);
+	grid-template-columns: minmax(200px, 184fr) minmax(397px, 397fr) minmax(184px, 184fr);
 	grid-template-rows: 8.25rem 1fr auto;
 	overflow: hidden;
 }
@@ -102,8 +100,9 @@ section {
 	margin-bottom: 1.25rem;
 }
 
-/* --- FOOTER BOX --- */
-
 footer {
 	grid-column: 2 / 4 ;
+}
+
+@media screen and (max-width: 1200px) {
 }
