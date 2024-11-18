@@ -1,0 +1,43 @@
+#cb-container {
+  margin-top: 2rem;
+  width: 60vw
+}
+
+#cb-header {
+  text-align: start;
+  color: var(--dark-blue);
+  font-family: 'RobotoSlab';
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+#cb-content {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-top: 1.5rem;
+}
+
+#cb-topics-header {
+  color: var(--smoke);
+  text-align: start;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#cb-topics-list {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  color: var(--smoke);
+  list-style-type: none;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+}
+
+#cb-topics-list li {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}

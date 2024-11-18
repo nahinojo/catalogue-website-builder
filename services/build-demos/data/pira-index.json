@@ -1,0 +1,753 @@
+{
+    "1": {
+        "name": "Mechanics",
+        "subcategories": {
+            "A": {
+                "name": "Measurement",
+                "topics": {
+                    "20": {
+                        "name": "Error and Accuracy"
+                    },
+                    "30": {
+                        "name": "Coordinate Systems"
+                    },
+                    "60": {
+                        "name": "Scaling"
+                    }
+                }
+            },
+            "C": {
+                "name": "Motion in One Dimension",
+                "topics": {
+                    "10": {
+                        "name": "Velocity"
+                    },
+                    "20": {
+                        "name": "Uniform Acceleration"
+                    },
+                    "30": {
+                        "name": "Measuring g"
+                    }
+                }
+            },
+            "D": {
+                "name": "Motion in Two Dimensions",
+                "topics": {
+                    "10": {
+                        "name": "Displacement in Two Dimensions"
+                    },
+                    "15": {
+                        "name": "Velocity, Position, and Acceleration"
+                    },
+                    "40": {
+                        "name": "Motion of the Center of Mass"
+                    },
+                    "50": {
+                        "name": "Central Forces"
+                    },
+                    "52": {
+                        "name": "Deformation by Central Force"
+                    },
+                    "55": {
+                        "name": "Centrifugal Escape"
+                    },
+                    "60": {
+                        "name": "Projectile Motion"
+                    }
+                }
+            },
+            "E": {
+                "name": "Relative Motion",
+                "topics": {
+                    "10": {
+                        "name": "Moving Reference Frames"
+                    }
+                }
+            },
+            "F": {
+                "name": "Newton's First Law",
+                "topics": {
+                    "20": {
+                        "name": "Inertia of Rest"
+                    }
+                }
+            },
+            "G": {
+                "name": "Newton's Second Law",
+                "topics": {
+                    "10": {
+                        "name": "Force, Mass, and Acceleration"
+                    },
+                    "20": {
+                        "name": "Accelerated Reference Frames"
+                    }
+                }
+            },
+            "H": {
+                "name": "Newton's Third Law",
+                "topics": {
+                    "10": {
+                        "name": "Action and Reaction"
+                    },
+                    "11": {
+                        "name": "Recoil"
+                    }
+                }
+            },
+            "J": {
+                "name": "Statics of Rigid Bodies",
+                "topics": {
+                    "10": {
+                        "name": "Finding Center of Gravity"
+                    },
+                    "11": {
+                        "name": "Exceeding Center of Gravity"
+                    },
+                    "20": {
+                        "name": "Stable, Unstable, and Neutral Equilibrium"
+                    },
+                    "30": {
+                        "name": "Resolution of Forces"
+                    },
+                    "40": {
+                        "name": "Static Torque"
+                    }
+                }
+            },
+            "K": {
+                "name": "Applications of Newton's Laws",
+                "topics": {
+                    "10": {
+                        "name": "Dynamic Torque"
+                    },
+                    "20": {
+                        "name": "Friction"
+                    },
+                    "30": {
+                        "name": "Pressure"
+                    }
+                }
+            },
+            "L": {
+                "name": "Gravity",
+                "topics": {
+                    "20": {
+                        "name": "Orbits"
+                    }
+                }
+            },
+            "M": {
+                "name": "Work and Energy",
+                "topics": {
+                    "10": {
+                        "name": "Work"
+                    },
+                    "20": {
+                        "name": "Simple Machines"
+                    },
+                    "40": {
+                        "name": "Conservation of Energy"
+                    }
+                }
+            },
+            "N": {
+                "name": "Linear Momentum and Collisions",
+                "topics": {
+                    "20": {
+                        "name": "Conservation of Linear Momentum"
+                    },
+                    "21": {
+                        "name": "Mass and Momentum Transfer"
+                    },
+                    "22": {
+                        "name": "Rockets "
+                    },
+                    "30": {
+                        "name": "Collision in One Dimension"
+                    }
+                }
+            },
+            "Q": {
+                "name": "Rotational Dynamics",
+                "topics": {
+                    "10": {
+                        "name": "Moment of Inertia"
+                    },
+                    "20": {
+                        "name": "Rotational Energy"
+                    },
+                    "30": {
+                        "name": "Transfer of Angular Momentum"
+                    },
+                    "40": {
+                        "name": "Conservation of Angular Momentum"
+                    },
+                    "50": {
+                        "name": "Gyros"
+                    },
+                    "60": {
+                        "name": "Rotational Stability"
+                    }
+                }
+            },
+            "R": {
+                "name": "Properties of Matter",
+                "topics": {
+                    "10": {
+                        "name": "Hooke's Law"
+                    },
+                    "50": {
+                        "name": "Crystal Structure"
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "name": "Fluid Mechanics",
+        "subcategories": {
+            "A": {
+                "name": "Surface Tension",
+                "topics": {
+                    "10": {
+                        "name": "Force of Surface Tension"
+                    },
+                    "20": {
+                        "name": " Capillary Action"
+                    }
+                }
+            },
+            "B": {
+                "name": "Statics of Fluids",
+                "topics": {
+                    "20": {
+                        "name": "Static Pressure"
+                    },
+                    "30": {
+                        "name": "Atmospheric Pressure"
+                    },
+                    "40": {
+                        "name": "Density and Bouyancy"
+                    }
+                }
+            },
+            "C": {
+                "name": "Dynamics of Fluids",
+                "topics": {
+                    "10": {
+                        "name": "Flow Rate"
+                    },
+                    "20": {
+                        "name": "Bernoulli Force"
+                    }
+                }
+            }
+        }
+    },
+    "3": {
+        "name": "Oscillations and Waves",
+        "subcategories": {
+            "A": {
+                "name": "Oscillations",
+                "topics": {
+                    "10": {
+                        "name": "Pendula"
+                    },
+                    "15": {
+                        "name": " Physical Pendula"
+                    },
+                    "20": {
+                        "name": "Springs and Oscillators"
+                    },
+                    "40": {
+                        "name": "Simple Harmonic Motion"
+                    },
+                    "60": {
+                        "name": "Driven Mechanical Resonance"
+                    },
+                    "70": {
+                        "name": "Coupled Oscillations"
+                    },
+                    "75": {
+                        "name": "Normal Modes"
+                    },
+                    "95": {
+                        "name": "Non-Linear Systems"
+                    }
+                }
+            },
+            "B": {
+                "name": "Wave Motion",
+                "topics": {
+                    "10": {
+                        "name": "Transverse Pulses and Waves"
+                    },
+                    "20": {
+                        "name": "Longitudinal Pulses and Waves"
+                    },
+                    "22": {
+                        "name": "Standing Waves"
+                    },
+                    "25": {
+                        "name": "Impedance and Dispersion"
+                    },
+                    "30": {
+                        "name": "Wave Properties of Sound"
+                    },
+                    "40": {
+                        "name": "Doppler Effect"
+                    },
+                    "45": {
+                        "name": "Shock Waves"
+                    },
+                    "50": {
+                        "name": "Interference and Diffraction"
+                    },
+                    "55": {
+                        "name": "Interference of Sound"
+                    },
+                    "60": {
+                        "name": "Beats"
+                    }
+                }
+            },
+            "C": {
+                "name": "Acoustics",
+                "topics": {
+                    "20": {
+                        "name": "Pitch"
+                    },
+                    "30": {
+                        "name": "Intensity and Attenuation"
+                    }
+                }
+            },
+            "D": {
+                "name": "Instruments",
+                "topics": {
+                    "20": {
+                        "name": "Resonance in Strings"
+                    },
+                    "30": {
+                        "name": "Resonance in Cavities"
+                    },
+                    "32": {
+                        "name": "Air Column instruments"
+                    },
+                    "40": {
+                        "name": "Resonance in Plates, Bars, and Solids"
+                    },
+                    "46": {
+                        "name": "Tuning Forks"
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "name": "Thermodynamics",
+        "subcategories": {
+            "A": {
+                "name": "Thermal Properties of Matter",
+                "topics": {
+                    "30": {
+                        "name": "Solid Expansion"
+                    },
+                    "40": {
+                        "name": "Properties of Materials at Low Temperature"
+                    }
+                }
+            },
+            "B": {
+                "name": "Heat and the First Law",
+                "topics": {
+                    "10": {
+                        "name": "Heat Capacity and Specific Heat"
+                    },
+                    "20": {
+                        "name": "Convection"
+                    },
+                    "30": {
+                        "name": "Conduction"
+                    },
+                    "40": {
+                        "name": "Radiation"
+                    },
+                    "50": {
+                        "name": "Heat Transfer Applications"
+                    },
+                    "60": {
+                        "name": "Mechanical Equivalent of Heat"
+                    }
+                }
+            },
+            "C": {
+                "name": "Change of State",
+                "topics": {
+                    "30": {"name": "Phase Changes: Liquid-Gas"},
+                    "40": {
+                        "name": "Sublimation"
+                    }
+                }
+            },
+            "D": {
+                "name": "Kinetic Theory",
+                "topics": {
+                    "10": {
+                        "name": "Brownian Motion"
+                    },
+                    "20": {
+                        "name": "Mean Free Path"
+                    },
+                    "30": {
+                        "name": "Kinetic Motion"
+                    },
+                    "50": {
+                        "name": "Diffusion"
+                    },
+                    "60": {
+                        "name": "States of Matter"
+                    }
+                }
+            },
+            "E": {
+                "name": "Gas Law",
+                "topics": {
+                    "10": {
+                        "name": "Constant Pressure"
+                    },
+                    "20": {
+                        "name": "Constant Temperature"
+                    },
+                    "30": {
+                        "name": "Constant Volume"
+                    }
+                }
+            },
+            "F": {
+                "name": "Entropy and the Second Law",
+                "topics": {
+                    "30": {
+                        "name": "Heat Cycles"
+                    }
+                }
+            }
+        }
+    },
+    "5": {
+        "name": "Electricity and Magnetism",
+        "subcategories": {
+            "A": {
+                "name": "Electrostatics",
+                "topics": {
+                    "10": {
+                        "name": "Producing Static Charge"
+                    },
+                    "20": {
+                        "name": " Coulomb's Law"
+                    },
+                    "30": {
+                        "name": "Conductors and Insulators"
+                    },
+                    "40": {
+                        "name": "Induced Charge"
+                    },
+                    "50": {
+                        "name": "Electrostatic Machines"
+                    }
+                }
+            },
+            "B": {
+                "name": "Electric Fields and Potential",
+                "topics": {
+                    "10": {
+                        "name": "Electric Field"
+                    },
+                    "20": {
+                        "name": " Gauss' Law"
+                    },
+                    "30": {
+                        "name": "Electrostatic Potential"
+                    }
+                }
+            },
+            "C": {
+                "name": "Capacitance",
+                "topics": {
+                    "10": {
+                        "name": "Capacitors"
+                    },
+                    "20": {
+                        "name": " Dielectrics"
+                    },
+                    "30": {
+                        "name": "Energy Stored in a Capacitor"
+                    }
+                }
+            },
+            "D": {
+                "name": "Resistance",
+                "topics": {
+                    "40": {
+                        "name": "Conduction in Gases"
+                    }
+                }
+            },
+            "F": {
+                "name": "DC Circuits",
+                "topics": {
+                    "10": {
+                        "name": "Ohm's Law"
+                    },
+                    "20": {
+                        "name": " Circuit Analysis"
+                    },
+                    "30": {
+                        "name": "RC Circuits"
+                    }
+                }
+            },
+            "G": {
+                "name": "Magnetic Materials",
+                "topics": {
+                    "10": {
+                        "name": " Magnets"
+                    },
+                    "20": {
+                        "name": " Magnetic Domains and Magnetization"
+                    },
+                    "30": {
+                        "name": " Paramagnetism and Diamagnetism"
+                    },
+                    "50": {
+                        "name": "Temperature and Magnetism"
+                    }
+                }
+            },
+            "H": {
+                "name": "Magnetic Fields and Forces",
+                "topics": {
+                    "10": {
+                        "name": "Magnetic Fields"
+                    },
+                    "15": {
+                        "name": " Fields and Currents"
+                    },
+                    "20": {
+                        "name": "Forces of Magnets"
+                    },
+                    "25": {
+                        "name": "Magnet-Electromagnet Interaction"
+                    },
+                    "30": {
+                        "name": "Force on Moving Charges"
+                    },
+                    "40": {
+                        "name": "Force on Current in Wires"
+                    }
+                }
+            },
+            "K": {
+                "name": "Electromagnetic Induction",
+                "topics": {
+                    "10": {
+                        "name": "Induced Currents and Forces"
+                    },
+                    "20": {
+                        "name": " Eddy Currents"
+                    },
+                    "30": {
+                        "name": "Transformers"
+                    },
+                    "40": {
+                        "name": "Motors and Generators"
+                    }
+                }
+            },
+            "L": {
+                "name": "AC Circuits",
+                "topics": {
+                    "10": {
+                        "name": "Impedance"
+                    }
+                }
+            },
+            "N": {
+                "name": "Electromagnetic Radiation",
+                "topics": {
+                    "30": {
+                        "name": "Electromagnetic Spectrum"
+                    }
+                }
+            }
+        }
+    },
+    "6": {
+        "name": "Optics",
+        "subcategories": {
+            "A": {
+                "name": "Geometrical Optics",
+                "topics": {
+                    "10": {
+                        "name": "Reflection from Flat Surfaces"
+                    },
+                    "20": {
+                        "name": "Reflection from Curved Surfaces"
+                    },
+                    "42": {
+                        "name": "Refraction at Flat Surfaces"
+                    },
+                    "44": {
+                        "name": "Total Internal Reflection"
+                    },
+                    "60": {
+                        "name": "Thin Lenses"
+                    }
+                }
+            },
+            "B": {
+                "name": "Photometry",
+                "topics": {
+                    "10": {
+                        "name": "Luminosity"
+                    },
+                    "40": {
+                        "name": "Blackbodies"
+                    }
+                }
+            },
+            "C": {
+                "name": "Diffraction",
+                "topics": {
+                    "10": {
+                        "name": "Diffraction Through One Slit"
+                    },
+                    "20": {
+                        "name": "Diffraction Around Objects"
+                    }
+                }
+            },
+            "D": {
+                "name": "Interference",
+                "topics": {
+                    "10": {
+                        "name": "Interference from Two Sources"
+                    },
+                    "20": {
+                        "name": "Gratings"
+                    },
+                    "30": {
+                        "name": "Thin Films"
+                    }
+                }
+            },
+            "F": {
+                "name": "Color",
+                "topics": {
+                    "10": {
+                        "name": "Synthesis and Analysis of Light and Color"
+                    },
+                    "30": {
+                        "name": "Dispersion"
+                    },
+                    "40": {
+                        "name": "Scattering"
+                    }
+                }
+            },
+            "H": {
+                "name": "Polarization",
+                "topics": {
+                    "10": {
+                        "name": "Dichroic Polarization"
+                    },
+                    "20": {
+                        "name": "Polarization by Reflection"
+                    },
+                    "30": {
+                        "name": "Circular Polarization"
+                    },
+                    "35": {
+                        "name": "Birefringence"
+                    }
+                }
+            }
+        }
+    },
+    "7": {
+        "name": "Modern Physics",
+        "subcategories": {
+            "B": {
+                "name": "Atomic Physics",
+                "topics": {
+                    "10": {
+                        "name": "Spectra"
+                    },
+                    "13": {
+                        "name": "Resonance Radiation"
+                    }
+                }
+            },
+            "D": {
+                "name": "Nuclear Physics",
+                "topics": {
+                    "10": {
+                        "name": "Radioactivity"
+                    }
+                }
+            },
+            "F": {
+                "name": "Relativity",
+                "topics": {
+                    "10": {
+                        "name": "Special Relativity"
+                    }
+                }
+            }
+        }
+    },
+    "8": {
+        "name": "Astronomy",
+        "subcategories": {
+            "A": {
+                "name": "Planetary Astronomy",
+                "topics": {
+                    "10": {
+                        "name": "Solar System Mechanics"
+                    },
+                    "20": {
+                        "name": " Earth-Moon Mechanics"
+                    },
+                    "35": {
+                        "name": "Views From Earth"
+                    },
+                    "40-8A80": {
+                        "name": " Planetary Properties"
+                    }
+                }
+            },
+            "B": {
+                "name": "Stellar Astronomy",
+                "topics": {
+                    "10": {
+                        "name": "The Sun"
+                    },
+                    "20": {
+                        "name": "Stellar Spectra"
+                    },
+                    "30": {
+                        "name": "Stellar Evolution"
+                    }
+                }
+            },
+            "C": {
+                "name": "Cosmology",
+                "topics": {
+                    "10": {
+                        "name": "Models of the Universe"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#navbar {
+  width: 100vw;
+  display: flex;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  justify-content: center;
+  gap: 6rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#navbar a {
+  font-size: 1rem;
+  color: var(--smoke)
+}
